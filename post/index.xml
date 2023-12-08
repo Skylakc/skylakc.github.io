@@ -6,7 +6,16 @@
         <description>Recent content in Posts on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The beginning of Smart Home</title>
+        <link>https://skylakc.github.io/p/the-beginning-of-smart-home/</link>
+        <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/the-beginning-of-smart-home/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/the-beginning-of-smart-home/florian-klauer-nptLmg6jqDo-unsplash.jpg" alt="Featured image of post The beginning of Smart Home" /&gt;&lt;h1 id=&#34;home-assistant&#34;&gt;Home Assistant&lt;/h1&gt;
+</description>
+        </item>
+        <item>
         <title>Markdown Syntax Guide</title>
         <link>https://skylakc.github.io/p/markdown-syntax-guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -361,28 +370,6 @@
     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Somebody&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;</description>
         </item>
         <item>
-        <title>مثال نص</title>
-        <link>https://skylakc.github.io/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/%D9%85%D8%AB%D8%A7%D9%84-%D9%86%D8%B5/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post مثال نص" /&gt;&lt;h2 id=&#34;فقرة-1&#34;&gt;فقرة 1&lt;/h2&gt;
-&lt;p&gt;هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من &lt;a class=&#34;link&#34; href=&#34;https://colorslab.com/textgator/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;مولد النص العربى&lt;/a&gt;، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
-هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.&lt;/p&gt;
-&lt;h2 id=&#34;فقرة-2&#34;&gt;فقرة 2&lt;/h2&gt;
-&lt;p&gt;هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من &lt;a class=&#34;link&#34; href=&#34;https://colorslab.com/textgator/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;مولد النص العربى&lt;/a&gt;، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
-هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.&lt;/p&gt;
-&lt;h2 id=&#34;تجربة-rtl&#34;&gt;تجربة RTL&lt;/h2&gt;
-&lt;p&gt;كلمة 1 Text كلمة 2&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Math Typesetting</title>
         <link>https://skylakc.github.io/p/math-typesetting/</link>
         <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -453,6 +440,59 @@ $$&lt;/p&gt;</description>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>My tesla coils</title>
+        <link>https://skylakc.github.io/p/my-tesla-coils/</link>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/my-tesla-coils/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/my-tesla-coils/luca-bravo-alS7ewQ41M8-unsplash.jpg" alt="Featured image of post My tesla coils" /&gt;&lt;p&gt;Me and lighting.&lt;/p&gt;
+&lt;h1 id=&#34;driver&#34;&gt;Driver&lt;/h1&gt;
+&lt;h2 id=&#34;gen-1&#34;&gt;Gen 1&lt;/h2&gt;
+&lt;p&gt;All circuit cited from Steve UD1.3&lt;/p&gt;
+&lt;p&gt;Based 74HC74/74HC08/74HC04&lt;/p&gt;
+&lt;p&gt;The isolator is HFBT1414/HFBT2412 ST Optical Fiber&lt;/p&gt;
+&lt;p&gt;The interrupt signal transmitted through Fiber.&lt;/p&gt;
+&lt;h2 id=&#34;gen-2&#34;&gt;Gen 2&lt;/h2&gt;
+&lt;p&gt;Based on CPLD Altera MAX II
+Integrated former door circuit into one chip.
+The new GDT driver used FDD8424H to instead of IRFP540/9540 MOS amplifier.&lt;/p&gt;
+&lt;h2 id=&#34;gen-3&#34;&gt;Gen 3&lt;/h2&gt;
+&lt;p&gt;Based on CPLD Xilinx CoolRunner II
+Try to design some low power circuit and faster PWM Signal in CPLD.
+Add a Phase shift circuit to protect the IGBT.
+Add a isolated IGBT driver though Fiber instead of Gate Driver Transformer(GDT)
+The MAX current of LCR Serial Resonant circuit up to 3000Amps. The input power up to 20KW&lt;/p&gt;
+&lt;h2 id=&#34;gen-4&#34;&gt;Gen 4&lt;/h2&gt;
+&lt;p&gt;Based on Infineon Cypress PSoc, which integrated in FPGA, PGA and ARM
+Developed a GUI base on Node.js
+A digital operate pannel with various sensor data.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://skylakc.github.io/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>My Undergraduate Design</title>
+        <link>https://skylakc.github.io/p/my-undergraduate-design/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/my-undergraduate-design/</guid>
+        <description>&lt;img src="https://skylakc.github.io/florian-klauer-nptLmg6jqDo-unsplash.jpg" alt="Featured image of post My Undergraduate Design" /&gt;</description>
+        </item>
+        <item>
+        <title>The rebirth of a gesoline car</title>
+        <link>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/car.jpg" alt="Featured image of post The rebirth of a gesoline car" /&gt;</description>
         </item>
         
     </channel>

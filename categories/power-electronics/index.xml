@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Power-Electronics on Skylake&#39;s Blog</title>
+        <link>https://skylakc.github.io/categories/power-electronics/</link>
+        <description>Recent content in Power-Electronics on Skylake&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/categories/power-electronics/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My tesla coils</title>
+        <link>https://skylakc.github.io/p/my-tesla-coils/</link>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/my-tesla-coils/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/my-tesla-coils/luca-bravo-alS7ewQ41M8-unsplash.jpg" alt="Featured image of post My tesla coils" /&gt;&lt;p&gt;Me and lighting.&lt;/p&gt;
+&lt;h1 id=&#34;driver&#34;&gt;Driver&lt;/h1&gt;
+&lt;h2 id=&#34;gen-1&#34;&gt;Gen 1&lt;/h2&gt;
+&lt;p&gt;All circuit cited from Steve UD1.3&lt;/p&gt;
+&lt;p&gt;Based 74HC74/74HC08/74HC04&lt;/p&gt;
+&lt;p&gt;The isolator is HFBT1414/HFBT2412 ST Optical Fiber&lt;/p&gt;
+&lt;p&gt;The interrupt signal transmitted through Fiber.&lt;/p&gt;
+&lt;h2 id=&#34;gen-2&#34;&gt;Gen 2&lt;/h2&gt;
+&lt;p&gt;Based on CPLD Altera MAX II
+Integrated former door circuit into one chip.
+The new GDT driver used FDD8424H to instead of IRFP540/9540 MOS amplifier.&lt;/p&gt;
+&lt;h2 id=&#34;gen-3&#34;&gt;Gen 3&lt;/h2&gt;
+&lt;p&gt;Based on CPLD Xilinx CoolRunner II
+Try to design some low power circuit and faster PWM Signal in CPLD.
+Add a Phase shift circuit to protect the IGBT.
+Add a isolated IGBT driver though Fiber instead of Gate Driver Transformer(GDT)
+The MAX current of LCR Serial Resonant circuit up to 3000Amps. The input power up to 20KW&lt;/p&gt;
+&lt;h2 id=&#34;gen-4&#34;&gt;Gen 4&lt;/h2&gt;
+&lt;p&gt;Based on Infineon Cypress PSoc, which integrated in FPGA, PGA and ARM
+Developed a GUI base on Node.js
+A digital operate pannel with various sensor data.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
