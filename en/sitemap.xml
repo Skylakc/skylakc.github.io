@@ -42,7 +42,7 @@
                 />
   </url><url>
     <loc>https://skylakc.github.io/categories/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -54,33 +54,29 @@
                 href="https://skylakc.github.io/categories/"
                 />
   </url><url>
-    <loc>https://skylakc.github.io/tags/homeassistant/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+    <loc>https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://skylakc.github.io/tags/homelab/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+    <loc>https://skylakc.github.io/tags/foc/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/motor/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/motor/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/pmsm/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://skylakc.github.io/post/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://skylakc.github.io/zh-cn/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://skylakc.github.io/post/"
-                />
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://skylakc.github.io/tags/smart-home/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/categories/smart-home/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+    <loc>https://skylakc.github.io/tags/svpwm/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://skylakc.github.io/tags/</loc>
-    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -92,63 +88,56 @@
                 href="https://skylakc.github.io/tags/"
                 />
   </url><url>
+    <loc>https://skylakc.github.io/tags/homeassistant/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/homelab/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/smart-home/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/smart-home/</loc>
+    <lastmod>2022-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://skylakc.github.io/p/the-beginning-of-smart-home/</loc>
     <lastmod>2022-03-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://skylakc.github.io/p/a-new-wall-e/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/pathplanner/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/realsense/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/ros/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/smartcart/</loc>
+    <lastmod>2021-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/adi/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/fpga/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/hackrf/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/rf/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/p/s-d-r/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/sdr/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://skylakc.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/p/markdown-syntax-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/p/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/p/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/p/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://skylakc.github.io/categories/test/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://skylakc.github.io/zh-cn/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://skylakc.github.io/categories/test/"
-                />
   </url><url>
     <loc>https://skylakc.github.io/tags/high-voltage/</loc>
     <lastmod>2018-01-03T00:00:00+00:00</lastmod>
@@ -165,7 +154,23 @@
     <loc>https://skylakc.github.io/tags/tesla-coil/</loc>
     <lastmod>2018-01-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://skylakc.github.io/tags/laser/</loc>
+    <lastmod>2013-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/laser/</loc>
+    <lastmod>2013-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/long-long-ago/</loc>
+    <lastmod>2013-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/</loc>
+    <lastmod>2013-05-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://skylakc.github.io/p/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/3d-printer/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/p/3d-printer/</loc>
   </url><url>
     <loc>https://skylakc.github.io/tags/car/</loc>
   </url><url>
@@ -175,15 +180,39 @@
   </url><url>
     <loc>https://skylakc.github.io/tags/embedded/</loc>
   </url><url>
+    <loc>https://skylakc.github.io/p/galleries/</loc>
+  </url><url>
     <loc>https://skylakc.github.io/links/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/low-power/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/low-power/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/mechanical-engineering/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/p/my-equipment/</loc>
   </url><url>
     <loc>https://skylakc.github.io/p/my-undergraduate-design/</loc>
   </url><url>
     <loc>https://skylakc.github.io/tags/path-control/</loc>
   </url><url>
+    <loc>https://skylakc.github.io/tags/potato/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/p/potato-boy/</loc>
+  </url><url>
     <loc>https://skylakc.github.io/search/</loc>
   </url><url>
+    <loc>https://skylakc.github.io/tags/sony-is-the-best/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/stm32/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/test/</loc>
+  </url><url>
     <loc>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/tags/tools/</loc>
+  </url><url>
+    <loc>https://skylakc.github.io/categories/tools/</loc>
   </url><url>
     <loc>https://skylakc.github.io/tags/turbo-charger/</loc>
   </url><url>

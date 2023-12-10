@@ -6,7 +6,39 @@
         <description>Recent content in Tags on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 13 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>FOC</title>
+        <link>https://skylakc.github.io/tags/foc/</link>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/foc/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Motor</title>
+        <link>https://skylakc.github.io/tags/motor/</link>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/motor/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>PMSM</title>
+        <link>https://skylakc.github.io/tags/pmsm/</link>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/pmsm/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SVPWM</title>
+        <link>https://skylakc.github.io/tags/svpwm/</link>
+        <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/svpwm/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>HomeAssistant</title>
         <link>https://skylakc.github.io/tags/homeassistant/</link>
         <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
@@ -31,63 +63,63 @@
         <description></description>
         </item>
         <item>
-        <title>css</title>
-        <link>https://skylakc.github.io/tags/css/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>PathPlanner</title>
+        <link>https://skylakc.github.io/tags/pathplanner/</link>
+        <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/css/</guid>
+        <guid>https://skylakc.github.io/tags/pathplanner/</guid>
         <description></description>
         </item>
         <item>
-        <title>html</title>
-        <link>https://skylakc.github.io/tags/html/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>Realsense</title>
+        <link>https://skylakc.github.io/tags/realsense/</link>
+        <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/html/</guid>
+        <guid>https://skylakc.github.io/tags/realsense/</guid>
         <description></description>
         </item>
         <item>
-        <title>markdown</title>
-        <link>https://skylakc.github.io/tags/markdown/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>ROS</title>
+        <link>https://skylakc.github.io/tags/ros/</link>
+        <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/markdown/</guid>
+        <guid>https://skylakc.github.io/tags/ros/</guid>
         <description></description>
         </item>
         <item>
-        <title>themes</title>
-        <link>https://skylakc.github.io/tags/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>ADI</title>
+        <link>https://skylakc.github.io/tags/adi/</link>
+        <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/themes/</guid>
+        <guid>https://skylakc.github.io/tags/adi/</guid>
         <description></description>
         </item>
         <item>
-        <title>privacy</title>
-        <link>https://skylakc.github.io/tags/privacy/</link>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        <title>FPGA</title>
+        <link>https://skylakc.github.io/tags/fpga/</link>
+        <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/privacy/</guid>
+        <guid>https://skylakc.github.io/tags/fpga/</guid>
         <description></description>
         </item>
         <item>
-        <title>shortcodes</title>
-        <link>https://skylakc.github.io/tags/shortcodes/</link>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        <title>HACKRF</title>
+        <link>https://skylakc.github.io/tags/hackrf/</link>
+        <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/shortcodes/</guid>
+        <guid>https://skylakc.github.io/tags/hackrf/</guid>
         <description></description>
         </item>
         <item>
-        <title>emoji</title>
-        <link>https://skylakc.github.io/tags/emoji/</link>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        <title>SDR</title>
+        <link>https://skylakc.github.io/tags/sdr/</link>
+        <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://skylakc.github.io/tags/emoji/</guid>
+        <guid>https://skylakc.github.io/tags/sdr/</guid>
         <description></description>
         </item>
         <item>
-        <title>High-voltage</title>
+        <title>High-Voltage</title>
         <link>https://skylakc.github.io/tags/high-voltage/</link>
         <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
         
@@ -108,6 +140,22 @@
         <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/tags/tesla-coil/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Laser</title>
+        <link>https://skylakc.github.io/tags/laser/</link>
+        <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/laser/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Long long ago</title>
+        <link>https://skylakc.github.io/tags/long-long-ago/</link>
+        <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/long-long-ago/</guid>
         <description></description>
         </item>
         <item>
@@ -135,11 +183,59 @@
         <description></description>
         </item>
         <item>
+        <title>Low Power</title>
+        <link>https://skylakc.github.io/tags/low-power/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/low-power/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Mechanical Engineering</title>
+        <link>https://skylakc.github.io/tags/mechanical-engineering/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/mechanical-engineering/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Path Control</title>
         <link>https://skylakc.github.io/tags/path-control/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/tags/path-control/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Potato</title>
+        <link>https://skylakc.github.io/tags/potato/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/potato/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Sony is the best</title>
+        <link>https://skylakc.github.io/tags/sony-is-the-best/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/sony-is-the-best/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>STM32</title>
+        <link>https://skylakc.github.io/tags/stm32/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/stm32/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tools</title>
+        <link>https://skylakc.github.io/tags/tools/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/tags/tools/</guid>
         <description></description>
         </item>
         <item>
