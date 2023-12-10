@@ -12,7 +12,28 @@
         <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/laser.jpg" alt="Featured image of post Romance from the depths of the crystal" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/laser.jpg" alt="Featured image of post Romance from the depths of the crystal" /&gt;&lt;p&gt;This is another story.&lt;/p&gt;
+&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;p&gt;My dad&amp;rsquo;s major is optical processes and manufacturing, he is one of the best engineer of the world.&lt;/p&gt;
+&lt;p&gt;The word &amp;ldquo;LASER&amp;rdquo; was arcane and esoteric.&lt;/p&gt;
+&lt;p&gt;Until a friend of mine approached me in middle school and said: let&amp;rsquo;s build a LASER gun!&lt;/p&gt;
+&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
+&lt;p&gt;After a period of study, we believe that what is within our ability to achieve is a CO2 laser.&lt;/p&gt;
+&lt;h3 id=&#34;hv-source&#34;&gt;HV Source&lt;/h3&gt;
+&lt;p&gt;It is well known that conventional CO2 laser pump requires a high voltage source for excitation. After the gas is broken down, the voltage needs to be reduced and the output current boosted to maintain the breakdown state to produce laser light.&lt;/p&gt;
+&lt;p&gt;The topology of our designed is classical ZVS. To increased the parallel resonant current, I instatlled a lot of capacitor.&lt;/p&gt;
+&lt;img src=heater.jpg width=60% /&gt;
+&lt;p&gt;Here are the result.&lt;/p&gt;
+&lt;img src=testing1.jpg width=60% /&gt;
+&lt;p&gt;I designed the new PCB and put the transformer together.&lt;/p&gt;
+&lt;img src=full.jpg width=60% /&gt;
+&lt;p&gt;Finally, I assembled all devices into a plexiglass box.&lt;/p&gt;
+&lt;img src=1.jpg width=60% /&gt;
+&lt;p&gt;In order to ensure that the water-cooling system works properly, I additionally designed a temperature protection circuit and realized it through the STC51.&lt;/p&gt;
+&lt;img src=2.jpg width=60% /&gt;
+&lt;p&gt;Look at the power test.&lt;/p&gt;
+&lt;img src=laser1.jpg width=60% /&gt;
+</description>
         </item>
         
     </channel>

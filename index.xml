@@ -278,7 +278,217 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-1
         <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/wave.jpg" alt="Featured image of post First look at the world of electric drives" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/wave.jpg" alt="Featured image of post First look at the world of electric drives" /&gt;&lt;p&gt;During my middle school years, I was introduced to model aviation. This is a type of aeromodeling that is powered by electric motors, mainly brushless motors. As my skills grew, I kept trying to make my own brushless motor drivers.&lt;/p&gt;
+&lt;img src=plane.jpg width=60% /&gt;
+&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;img src=driver3.jpg width=60% /&gt;
+&lt;p&gt;In fact, BLDC is driven by a simple, six-tap commutation method. Essentially BLDC is turning the commutator of a brushed DC motor into an electronic switch.&lt;/p&gt;
+&lt;img src=UVW1.jpg width=60% /&gt;
+&lt;p&gt;Very quickly, I made my own driver using a microcontroller.&lt;/p&gt;
+&lt;img src=UVW2.jpg width=60% /&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;p&gt;Then after that, I discovered the TI C2000 series microcontroller&amp;rsquo;s motor drive function library and PMSM motors. the FOC algorithm can bring infinite possibilities to motor drive.&lt;/p&gt;
+&lt;p&gt;So I built a motor lab platform. It was a 57 stepper motor plus an AMT102 optical encoder.&lt;/p&gt;
+&lt;img src=driver5.jpg width=60% /&gt;
+&lt;p&gt;Then MEMS technology-enabled magnetic encoders started to roll out in large numbers, and I ported the drive algorithms to an ST microcontroller, swapping out the optical encoder for a radial magnet-based magnetic encoder. Eventually a small motor driver board was made.&lt;/p&gt;
+&lt;img src=driver1.jpg width=60% /&gt;
+&lt;img src=driver2.jpg width=60% /&gt;
+&lt;img src=driver4.jpg width=60% /&gt;
+&lt;p&gt;Now, motors based on FOC control technology run in all the places in my house that need a motor drive, including my fish tank water pump, computer water pump, air conditioning inverter compressor, fresh air fan and so on.&lt;/p&gt;
+&lt;p&gt;I developed variety of driver board to control these motors. (Some of them are sensorless which works in a light load)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My Undergraduate Design</title>
+        <link>https://skylakc.github.io/p/my-undergraduate-design/</link>
+        <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/my-undergraduate-design/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/my-undergraduate-design/fly.jpg" alt="Featured image of post My Undergraduate Design" /&gt;&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;p&gt;When I was in high school, I was introduced to flight controls and multirotors.&lt;/p&gt;
+&lt;img src=1.jpg width=60% /&gt;
+&lt;p&gt;I learned what a MultiWii is, and the famous Ardupilot.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d be thinking about how to get MultiWii&amp;rsquo;s complicated code to run in the Atmel 328p that I could afford at the time.&lt;/p&gt;
+&lt;img src=6.jpg width=60% /&gt;
+&lt;p&gt;Followed by Ardupilot running in Atmega2560. I tuned it all the day.&lt;/p&gt;
+&lt;img src=3.jpg width=60% /&gt;
+&lt;p&gt;Then there&amp;rsquo;s the revamped pixhawk 2.4.8.&lt;/p&gt;
+&lt;img src=7.jpg width=60% /&gt;
+&lt;p&gt;It also does some weird stuff in between, like the Y3 craft that relies on rudder control of the third axis tension vector angle to counteract spin.&lt;/p&gt;
+&lt;img src=5.jpg width=60% /&gt;
+&lt;p&gt;And the giant eight-axle, with a wheelbase of 1200mm.&lt;/p&gt;
+&lt;img src=4.jpg width=60% /&gt;
+&lt;p&gt;During my college years, I once again became involved with drones. This time, I won the national second prize of the TI Cup, the highest event of electronic competitions for college students, by designing the X4 myself.&lt;/p&gt;
+&lt;img src=UAV.jpg width=60% /&gt;
+&lt;img src=UAV2.jpg width=60% /&gt;
+&lt;p&gt;This project ended up being my senior project, and it was low enough to earn the title of Outstanding Thesis.&lt;/p&gt;
+&lt;img src=PRIZE.jpg width=60% /&gt;
+</description>
+        </item>
+        <item>
+        <title>My tesla coils</title>
+        <link>https://skylakc.github.io/p/my-tesla-coils/</link>
+        <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/my-tesla-coils/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/my-tesla-coils/coil.jpg" alt="Featured image of post My tesla coils" /&gt;&lt;p&gt;Me and lighting.&lt;/p&gt;
+&lt;p&gt;The duration of this project spanned my middle school and undergraduate years, and with each new location I always wanted to improve the design and implement it.&lt;/p&gt;
+&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;p&gt;At first, I just wanna make a switching power supply. When I was came across to the NE555 chip, I found the mystery of AC world.&lt;/p&gt;
+&lt;p&gt;This is a CD4046 based PLL Driver.&lt;/p&gt;
+&lt;img src=4013.jpg width=60% /&gt;
+&lt;p&gt;So I changed my target and make a inverter. At the same time, I searched a interesting device which could released over 1,000,000 voltages. It was invented by Nicola Tesla.&lt;/p&gt;
+&lt;p&gt;Of course, the load of my inverter is Tesla Coil. To verified the functions of the coil, my first target is make a SGTC (Spark Gap Tesla Coil).&lt;/p&gt;
+&lt;img src=sgtc.jpg width=60% /&gt;
+&lt;p&gt;There is a HV generator and a inverter. At that time, I was a junior high school student. So my solution is Classical ZVS inverter + CRT Line output transformer.&lt;/p&gt;
+&lt;img src=zvs1.jpg width=60% /&gt;
+&lt;p&gt;Here are the arc of the output, 15kV DC Apporx.&lt;/p&gt;
+&lt;img src=arc.png width=60% /&gt;
+&lt;h3 id=&#34;gen-1&#34;&gt;Gen 1&lt;/h3&gt;
+&lt;p&gt;To replace the spark gap, we need to artificially control the coil with chips and transistors.&lt;/p&gt;
+&lt;p&gt;All circuit cited from Steve UD1.3&lt;/p&gt;
+&lt;p&gt;Based 74HC74/74HC08/74HC04&lt;/p&gt;
+&lt;p&gt;The isolator is HFBT1414/HFBT2412 ST Optical Fiber&lt;/p&gt;
+&lt;p&gt;The interrupt signal transmitted through Fiber.&lt;/p&gt;
+&lt;img src=driver1.jpg width=60% /&gt;
+&lt;p&gt;For inverter, I chose full bridge topology. The IGBT driver used magnetical isolatator (GDT, Gate Driver Transformer, made of Ethernet Wire)&lt;/p&gt;
+&lt;img src=inverter.jpg width=80% /&gt;
+&lt;p&gt;To control the working duration, I designed a interrupt signal generator. It based on NE555 and LM393.&lt;/p&gt;
+&lt;img src=interrupter.jpg width=80% /&gt;
+&lt;p&gt;Here are the testing site. The MCU responsible for generating a fake primary working excitation to trig the D trigger.&lt;/p&gt;
+&lt;img src=testing.jpg width=80% /&gt;
+&lt;p&gt;And the oscilloscope result.&lt;/p&gt;
+&lt;img src=testing2.jpg width=50% /&gt;
+&lt;img src=testing6.jpg width=50% /&gt;
+&lt;p&gt;This is the current sensor and feedback sensor.&lt;/p&gt;
+&lt;img src=sensor.jpg width=50% /&gt;
+&lt;p&gt;Then I mounted the relevant equipment to the coil.&lt;/p&gt;
+&lt;img src=primarycoil.jpg width=80% /&gt;
+&lt;img src=interrupter.jpg width=80% /&gt;
+&lt;p&gt;Finally, I got the whole device and I decided to test in my home. I have made a total of two coils based on different calculation parameters. My mom and dad helped me with the winding.&lt;/p&gt;
+&lt;img src=test.jpg width=80% /&gt;
+&lt;img src=coil0.jpg width=80% /&gt;
+&lt;img src=coil1.jpg width=80% /&gt;
+&lt;p&gt;Actually, the result is not good. I have to change my solution and debug the whole system.&lt;/p&gt;
+&lt;h3 id=&#34;gen-2&#34;&gt;Gen 2&lt;/h3&gt;
+&lt;p&gt;Following the prompt, I reached out to the CPLD. Here are the next gen. driver.
+The solution based on CPLD Altera MAX II, which integrated whole door circuit into one chip.
+The new GDT driver used P-N MOSFET FDD8424H to instead of IRFP540/9540 totem pole MOS amplifier.&lt;/p&gt;
+&lt;img src=driver2.jpg width=80% /&gt;
+&lt;p&gt;At this time, I recalculated the resonance parameters, taking into account the conclusions of enthusiasts in other parts of the world.&lt;/p&gt;
+&lt;img src=testing3.jpg width=80% /&gt;
+&lt;p&gt;This time the result is very significant, at this point the resonant current has reached 100Amps according to the calculation, the IGBT is rated at 50Amps.&lt;/p&gt;
+&lt;p&gt;In order to be able to use the previous secondary coil and get better results, I set out to improve a new generation of inverters, this time with 5 IGBTs per arm in parallel.&lt;/p&gt;
+&lt;img src=inverter2.jpg width=80% /&gt;
+&lt;p&gt;I tested the coil at my home and my high school.&lt;/p&gt;
+&lt;img src=testing4.jpg width=80% /&gt;
+&lt;img src=testing5.jpg width=80% /&gt;
+&lt;h2 id=&#34;twisting&#34;&gt;Twisting&lt;/h2&gt;
+&lt;p&gt;As time went by I came to the university, because of some trivial things, I couldn&amp;rsquo;t concentrate on doing higher power testing. So I switched to doing some optimization design.&lt;/p&gt;
+&lt;p&gt;Here are the new gen. driver based on CPLD Xilinx CoolRunner II.
+In this board, I tried to design some protect circuit and faster PWM Signal in CPLD.
+Such as a Phase shift circuit to protect the IGBT.
+Also, I add a isolated IGBT driver though Fiber to instead of Gate Driver Transformer(GDT).&lt;/p&gt;
+&lt;img src=driver3.jpg width=80% /&gt;
+&lt;p&gt;The new platform in my lab.&lt;/p&gt;
+&lt;img src=coil4.jpg width=80% /&gt;
+&lt;p&gt;In this time, I tried to use the IGBT modules to build the full bridge inverter.&lt;/p&gt;
+&lt;img src=inverter3.jpg width=80% /&gt;
+&lt;p&gt;But It didn&amp;rsquo;t last long, as the program was quickly suspended by the school and terminated after I lobbied ineffectively.&lt;/p&gt;
+&lt;h2 id=&#34;rebirth&#34;&gt;Rebirth&lt;/h2&gt;
+&lt;p&gt;Restart, new life&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I still remember when I was in my third year of junior high school, my dad gave me 3,000 RMB to realize my dream, and in that year, I built an oversized IGBT inverter. But the lack of theoretical knowledge made me never successfully and safely drive up this big guy.&lt;/p&gt;
+&lt;img src=inverter5.jpg width=80% /&gt;
+&lt;p&gt;These are the resonant capacitors prepared at that time.&lt;/p&gt;
+&lt;img src=cap1.jpg width=80% /&gt;
+&lt;p&gt;And this is the secondary coil that was prepared at the time.&lt;/p&gt;
+&lt;img src=coil.jpg width=80% /&gt;
+&lt;p&gt;Before I did my graduation defense, I was reminded again of my childhood aspirations, so I redesigned the new driver circuit.   The new driver based on Infineon Cypress PSoc, which integrated in FPGA, PGA and ARM.&lt;/p&gt;
+&lt;p&gt;After that, I developed a GUI base on Node.js. It is a digital operate pannel with various sensor data.&lt;/p&gt;
+&lt;img src=teslanode.jpg width=80% /&gt;
+&lt;p&gt;I hope that someday I can actually finish and close this 10-year project!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The rebirth of a gesoline car</title>
+        <link>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</link>
+        <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/car.png" alt="Featured image of post The rebirth of a gesoline car" /&gt;&lt;p&gt;I bought a 12 used car, which model is Volkswagen Golf MK4 1.8L Naturally Aspirated.&lt;/p&gt;
+&lt;p&gt;After an accident, I have to repair my car.&lt;/p&gt;
+&lt;p&gt;The car is built on the same platform as the Audi TT MK1 named PQ34.&lt;/p&gt;
+&lt;p&gt;As a result, I&amp;rsquo;ve used a variety of processes to modify my car, including but not limited to add a new turbocharger&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
+&lt;h3 id=&#34;engine&#34;&gt;Engine&lt;/h3&gt;
+&lt;img src=teardown.jpg width=80% /&gt;
+&lt;p&gt;This is the cylinder head. The hydraulic valve tappet has been damaged and the connecting surface is scratched.&lt;/p&gt;
+&lt;img src=head.jpg width=80% /&gt;
+&lt;p&gt;Crankshaft, Camshaft, pitsons, rod, freewheel, these have been taken down.&lt;/p&gt;
+&lt;img src=shafts.jpg width=80% /&gt;
+&lt;p&gt;The floating bearing has been severely damaged.&lt;/p&gt;
+&lt;img src=bearing.jpg width=80% /&gt;
+&lt;h3 id=&#34;gearbox&#34;&gt;Gearbox&lt;/h3&gt;
+&lt;p&gt;The transmission was likewise removed and disassembled&lt;/p&gt;
+&lt;img src=gearbox.jpg width=80% /&gt;
+&lt;h3 id=&#34;interiors&#34;&gt;Interiors&lt;/h3&gt;
+&lt;p&gt;For the interiors, the carpets, dashboard, seats, and central tunnel were &lt;strong&gt;all&lt;/strong&gt; removed.&lt;/p&gt;
+&lt;img src=tear2.jpg width=80% /&gt;
+&lt;p&gt;Glass Lifter Removal and Speaker Replacement&lt;/p&gt;
+&lt;img src=stero.jpg width=80% /&gt;
+&lt;p&gt;Twelve-handed objects always have some electrical problems&lt;/p&gt;
+&lt;img src=wires.png width=80% /&gt;
+&lt;h2 id=&#34;rebuilding&#34;&gt;Rebuilding&lt;/h2&gt;
+&lt;p&gt;New Life&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;engine-1&#34;&gt;Engine&lt;/h3&gt;
+&lt;p&gt;Rebuilding&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;img src=cyclinder1.jpg width=80% /&gt;
+&lt;p&gt;Polishing&amp;hellip;&lt;/p&gt;
+&lt;img src=polishing.jpg width=80% /&gt;
+&lt;p&gt;Valve grinding.&lt;/p&gt;
+&lt;img src=valve1.jpg width=80% /&gt;
+&lt;h3 id=&#34;ecu-program&#34;&gt;ECU Program&lt;/h3&gt;
+&lt;p&gt;I rebuilt the whole ECU hardware and software. The main MCU replaced by Infineon Aurix TC264 with higher frequency, which completely improves the sensor refresh rate and provides a high-speed interface for logging.&lt;/p&gt;
+&lt;img src=ECUs.jpg width=80% /&gt;
+&lt;h2 id=&#34;installing&#34;&gt;Installing&lt;/h2&gt;
+&lt;p&gt;A long way to go&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;engine-2&#34;&gt;Engine&lt;/h3&gt;
+&lt;p&gt;Everything is new, new cylinder barrels, new bearings, new gaskets.&lt;/p&gt;
+&lt;p&gt;Cylinder roundness measurement in progress&lt;/p&gt;
+&lt;img src=Install3.png width=80% /&gt;
+&lt;p&gt;Install new valve seals, valve hydraulic tappets, valve springs&lt;/p&gt;
+&lt;img src=install4.png width=80% /&gt;
+&lt;p&gt;Install forged crankshaft.&lt;/p&gt;
+&lt;img src=install7.png width=80% /&gt;
+&lt;p&gt;Oil pump, oil suction nozzle installed, oil pan installed&lt;/p&gt;
+&lt;img src=install6.png width=80% /&gt;
+&lt;p&gt;New gas valve base.&lt;/p&gt;
+&lt;img src=install5.png width=80% /&gt;
+&lt;p&gt;Forged pitsons and rods.&lt;/p&gt;
+&lt;img src=rods.png width=80% /&gt;
+&lt;img src=install7.jpg width=80% /&gt;
+&lt;h3 id=&#34;intake--turbocharger&#34;&gt;Intake &amp;amp; Turbocharger&lt;/h3&gt;
+&lt;p&gt;Cylinded head has been installed.&lt;/p&gt;
+&lt;img src=install9.jpg width=80% /&gt;
+&lt;h3 id=&#34;assembling&#34;&gt;Assembling&lt;/h3&gt;
+&lt;img src=install12.jpg width=80% /&gt;
+&lt;p&gt;Engine wires, which include sensors, ignitations and fuel injector.&lt;/p&gt;
+&lt;img src=install13.jpg width=80% /&gt;
+&lt;p&gt;Installing engine.&lt;/p&gt;
+&lt;img src=install11.jpg width=80% /&gt;
+&lt;img src=install1.png width=80% /&gt;
+&lt;img src=install2.png width=80% /&gt;
+&lt;img src=install10.png width=80% /&gt;
+&lt;h2 id=&#34;finished&#34;&gt;Finished&lt;/h2&gt;
+&lt;p&gt;Channel1 is the Crankshaft Signal.&lt;/p&gt;
+&lt;p&gt;Channel2 is the Camshaft Signal.&lt;/p&gt;
+&lt;p&gt;Engine is working well.&lt;/p&gt;
+&lt;img src=Signal.jpg width=80% /&gt;
+&lt;img src=finished.jpg width=80% /&gt;
+&lt;p&gt;Finally, my car had fully accomplished its rebirth way.&lt;/p&gt;
+&lt;img src=run.jpg width=80% /&gt;
+&lt;p&gt;PS: Most of the process here took place in my garage, the lift for the installation process came from a friend&amp;rsquo;s garage, thanks again to Mr. Wei Ting (魏挺) of Yinchuan Junwei（君威） Auto Repair Cente for the venue support.&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>The beginning of Smart Home</title>
@@ -286,10 +496,103 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-1
         <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/the-beginning-of-smart-home/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/the-beginning-of-smart-home/rack.jpg" alt="Featured image of post The beginning of Smart Home" /&gt;&lt;p&gt;这件事情如果一定要追溯，那应该来自初中对钢铁侠的热爱&lt;/p&gt;
-&lt;h1 id=&#34;the-prototype-of-jarvis&#34;&gt;The prototype of Jarvis&lt;/h1&gt;
-&lt;p&gt;STC8051+LD3320&lt;/p&gt;
-&lt;h1 id=&#34;home-assistant&#34;&gt;Home Assistant&lt;/h1&gt;
+        <description>&lt;img src="https://skylakc.github.io/p/the-beginning-of-smart-home/rack.jpg" alt="Featured image of post The beginning of Smart Home" /&gt;&lt;p&gt;This is something that, if it had to be traced, would have come from a middle school love of Iron Man.&lt;/p&gt;
+&lt;p&gt;I wanna have the same Jarvis.&lt;/p&gt;
+&lt;h2 id=&#34;the-prototype-of-jarvis&#34;&gt;The prototype of Jarvis&lt;/h2&gt;
+&lt;p&gt;The solution is STC8051+LD3320.&lt;/p&gt;
+&lt;img src=v1.jpg width=60% /&gt;
+&lt;p&gt;The solution&amp;rsquo;s judgment is based on Chinese pinyin, and the recognition is very inaccurate, but it satisfies the needs of junior high school me who didn&amp;rsquo;t want to get out of bed and turn off the light on winter nights.&lt;/p&gt;
+&lt;p&gt;To make the system look less thin and boring, I added a Bluetooth audio system&lt;/p&gt;
+&lt;img src=v2.jpg width=60% /&gt;
+&lt;img src=v21.jpg width=60% /&gt;
+&lt;img src=v22.jpg width=60% /&gt;
+&lt;h2 id=&#34;home-assistant&#34;&gt;Home Assistant&lt;/h2&gt;
+&lt;img src=v31.jpg width=60% /&gt;
+&lt;p&gt;The second generation is based on Homeassistant, a python-based hub system.&lt;/p&gt;
+&lt;p&gt;In the meantime, I moved to a new home. The garage holds a whole rack of servers.&lt;/p&gt;
+&lt;img src=rack1.jpg width=60% /&gt;
+&lt;p&gt;In this server I ran the routing system and the smart home system. I then developed the voice input and output modules for the new system as well.&lt;/p&gt;
+&lt;img src=v3.jpg width=60% /&gt;
+&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Universal Driver</title>
+        <link>https://skylakc.github.io/p/universal-driver/</link>
+        <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/universal-driver/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/universal-driver/stm.jpg" alt="Featured image of post Universal Driver" /&gt;&lt;h1 id=&#34;developing&#34;&gt;Developing&amp;hellip;.&lt;/h1&gt;
+&lt;p&gt;Ready to implement a modular general-purpose motor driver with support for various algorithms, complete protection, multiple sensors, with signal outputs and oscilloscope&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Isolated Op Amps&lt;/p&gt;
+&lt;p&gt;Isolated Power Supplies&lt;/p&gt;
+&lt;p&gt;as2s1210&lt;/p&gt;
+&lt;p&gt;ad7401 (bus voltage three phase current)&lt;/p&gt;
+&lt;p&gt;zynq&lt;/p&gt;
+&lt;p&gt;Input voltage 10-60&lt;/p&gt;
+&lt;p&gt;Input current 80a&lt;/p&gt;
+&lt;p&gt;3.3v20a capacity (test pw22 and zxd10)&lt;/p&gt;
+&lt;p&gt;5v8a capacity&lt;/p&gt;
+&lt;p&gt;tlv62130tps51200 quad power and ddr&lt;/p&gt;
+&lt;p&gt;rtl8211 network phy two&lt;/p&gt;
+&lt;p&gt;ft2232 jtag&lt;/p&gt;
+&lt;p&gt;max232 rs232 architecture&lt;/p&gt;
+&lt;p&gt;Isolated can?&lt;/p&gt;
+&lt;p&gt;hdmi phy?&lt;/p&gt;
+&lt;p&gt;Connector&lt;/p&gt;
+&lt;p&gt;Differential Encoder Receive&lt;/p&gt;
+&lt;p&gt;Encoder Input Optical Isolation&lt;/p&gt;
+&lt;p&gt;Reserve rotary position&lt;/p&gt;
+&lt;p&gt;encoder signal input mux&lt;/p&gt;
+&lt;p&gt;cpld12 line pwm protection&lt;/p&gt;
+&lt;p&gt;ad7124-8 temperature phase voltage bus voltage&lt;/p&gt;
+&lt;p&gt;ad7124&lt;/p&gt;
+&lt;p&gt;stm32 function&lt;/p&gt;
+&lt;p&gt;Four-way voltage protection All four outputs leave a test point&lt;/p&gt;
+&lt;p&gt;bus voltage protection (bus voltage resistor network after leaving the test point to connect two voltage followers one into the cpu, one into the south bridge to leave the test point) (bus voltage small power board with pmos, high power with AC contactor)&lt;/p&gt;
+&lt;p&gt;Temperature protection (read 7124)&lt;/p&gt;
+&lt;p&gt;hard overcurrent protection with a comparator opamp, the stm32 output pwm through the second-order filters
+(later these functional requirements are realized with fpga, the protection logic is not involved in the software)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Potato Boy</title>
+        <link>https://skylakc.github.io/p/potato-boy/</link>
+        <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/potato-boy/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/potato-boy/potato.jpg" alt="Featured image of post Potato Boy" /&gt;&lt;p&gt;This project comes from a joke that has been circulating the internet, &amp;ldquo;Your server is made of potatoes, right?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I finished the joke with my friend.&lt;/p&gt;
+&lt;p&gt;First, we need a full-power potato batteries.&lt;/p&gt;
+&lt;img src=0.jpg width=60% /&gt;
+&lt;p&gt;This is followed by a low-power system including a low-power processor, an Eink display, and a low-power Bluetooth gateway.&lt;/p&gt;
+&lt;img src=potato.jpg width=60% /&gt;
+&lt;p&gt;Then designed a PCB for it.&lt;/p&gt;
+&lt;img src=2.jpg width=60% /&gt;
+&lt;p&gt;Testing.&lt;/p&gt;
+&lt;img src=1.jpg width=60% /&gt;
+&lt;p&gt;This story ended up providing the source of the idea for the Tsinghua University admissions video.&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1bN4y137HJ&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         </item>
         <item>
@@ -309,6 +612,22 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-1
         <description>&lt;img src="https://skylakc.github.io/p/s-d-r/transmitter.jpg" alt="Featured image of post S D R" /&gt;</description>
         </item>
         <item>
+        <title>3D Printer</title>
+        <link>https://skylakc.github.io/p/3d-printer/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/3d-printer/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/3d-printer/1.jpg" alt="Featured image of post 3D Printer" /&gt;&lt;p&gt;I made a cross shaft driven 3D printer to make a device enclosure and some structural assembly parts.&lt;/p&gt;
+&lt;img src=2.jpg width=60% /&gt;
+&lt;p&gt;In the beginning, I used a common stepper motor driver DRV8825. this driver is a square wave driver and generates a lot of noise.&lt;/p&gt;
+&lt;img src=3.jpg width=60% /&gt;
+&lt;p&gt;So I developed a stepper motor driver using SPWM signal drive based on what I learned. I then added a magnetic encoder and the SPWM driver was changed to SVPWM and current loop closed loop control was added. The end result was very good vibration control and quietness.&lt;/p&gt;
+&lt;img src=4.jpg width=60% /&gt;
+&lt;img src=5.jpg width=60% /&gt;
+&lt;p&gt;Related devices has been opensourced in my github.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Archives</title>
         <link>https://skylakc.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -317,73 +636,33 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-1
         <description></description>
         </item>
         <item>
-        <title>My tesla coils</title>
-        <link>https://skylakc.github.io/p/my-tesla-coils/</link>
-        <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/my-tesla-coils/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/my-tesla-coils/coil.jpg" alt="Featured image of post My tesla coils" /&gt;&lt;p&gt;Me and lighting.&lt;/p&gt;
-&lt;p&gt;The duration of this project spanned my middle school and undergraduate years, and with each new location I always wanted to improve the design and implement it.&lt;/p&gt;
-&lt;h2 id=&#34;driver&#34;&gt;Driver&lt;/h2&gt;
-&lt;h3 id=&#34;gen-1&#34;&gt;Gen 1&lt;/h3&gt;
-&lt;p&gt;All circuit cited from Steve UD1.3&lt;/p&gt;
-&lt;p&gt;Based 74HC74/74HC08/74HC04&lt;/p&gt;
-&lt;p&gt;The isolator is HFBT1414/HFBT2412 ST Optical Fiber&lt;/p&gt;
-&lt;p&gt;The interrupt signal transmitted through Fiber.&lt;/p&gt;
-&lt;h3 id=&#34;gen-2&#34;&gt;Gen 2&lt;/h3&gt;
-&lt;p&gt;Based on CPLD Altera MAX II
-Integrated former door circuit into one chip.
-The new GDT driver used FDD8424H to instead of IRFP540/9540 totem pole MOS amplifier.&lt;/p&gt;
-&lt;h3 id=&#34;gen-3&#34;&gt;Gen 3&lt;/h3&gt;
-&lt;p&gt;Based on CPLD Xilinx CoolRunner II
-Try to design some low power circuit and faster PWM Signal in CPLD.
-Add a Phase shift circuit to protect the IGBT.
-Add a isolated IGBT driver though Fiber to instead of Gate Driver Transformer(GDT)
-The MAX current of LCR Serial Resonant circuit up to 3000Amps. The input power up to 20KW&lt;/p&gt;
-&lt;h3 id=&#34;gen-4&#34;&gt;Gen 4&lt;/h3&gt;
-&lt;p&gt;Based on Infineon Cypress PSoc, which integrated in FPGA, PGA and ARM
-Developed a GUI base on Node.js
-A digital operate pannel with various sensor data.&lt;/p&gt;
-&lt;h2 id=&#34;inverter&#34;&gt;Inverter&lt;/h2&gt;
-&lt;h3 id=&#34;gen-1-1&#34;&gt;Gen 1&lt;/h3&gt;
-&lt;p&gt;Based on IRFP260N Half Bridge&lt;/p&gt;
-&lt;h3 id=&#34;gen-2-1&#34;&gt;Gen 2&lt;/h3&gt;
-&lt;p&gt;Based on IRFP460 Full Bridge&lt;/p&gt;
-&lt;h3 id=&#34;gen-3-1&#34;&gt;Gen 3&lt;/h3&gt;
-&lt;p&gt;Based on induction cooker TO263 IGBT 40N120&lt;/p&gt;
-&lt;h3 id=&#34;gen-4-1&#34;&gt;Gen 4&lt;/h3&gt;
-&lt;p&gt;Based on parallel TO263 IGBT full bridge&lt;/p&gt;
-&lt;h3 id=&#34;gen-5&#34;&gt;Gen 5&lt;/h3&gt;
-&lt;p&gt;Based on IGBT module Mitsubishi CM300DY-12H
-Two sets of IGBT transistors integrated inside each module.&lt;/p&gt;
-&lt;h3 id=&#34;gen-6&#34;&gt;Gen 6&lt;/h3&gt;
-&lt;p&gt;Based on IGBT module Mitsubishi CM600HA-24H
-Current 3000A&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Romance from the depths of the crystal</title>
         <link>https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/</link>
         <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/laser.jpg" alt="Featured image of post Romance from the depths of the crystal" /&gt;</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://skylakc.github.io/p/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>3D Printer</title>
-        <link>https://skylakc.github.io/p/3d-printer/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/3d-printer/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/3d-printer/1.jpg" alt="Featured image of post 3D Printer" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/romance-from-the-depths-of-the-crystal/laser.jpg" alt="Featured image of post Romance from the depths of the crystal" /&gt;&lt;p&gt;This is another story.&lt;/p&gt;
+&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;p&gt;My dad&amp;rsquo;s major is optical processes and manufacturing, he is one of the best engineer of the world.&lt;/p&gt;
+&lt;p&gt;The word &amp;ldquo;LASER&amp;rdquo; was arcane and esoteric.&lt;/p&gt;
+&lt;p&gt;Until a friend of mine approached me in middle school and said: let&amp;rsquo;s build a LASER gun!&lt;/p&gt;
+&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
+&lt;p&gt;After a period of study, we believe that what is within our ability to achieve is a CO2 laser.&lt;/p&gt;
+&lt;h3 id=&#34;hv-source&#34;&gt;HV Source&lt;/h3&gt;
+&lt;p&gt;It is well known that conventional CO2 laser pump requires a high voltage source for excitation. After the gas is broken down, the voltage needs to be reduced and the output current boosted to maintain the breakdown state to produce laser light.&lt;/p&gt;
+&lt;p&gt;The topology of our designed is classical ZVS. To increased the parallel resonant current, I instatlled a lot of capacitor.&lt;/p&gt;
+&lt;img src=heater.jpg width=60% /&gt;
+&lt;p&gt;Here are the result.&lt;/p&gt;
+&lt;img src=testing1.jpg width=60% /&gt;
+&lt;p&gt;I designed the new PCB and put the transformer together.&lt;/p&gt;
+&lt;img src=full.jpg width=60% /&gt;
+&lt;p&gt;Finally, I assembled all devices into a plexiglass box.&lt;/p&gt;
+&lt;img src=1.jpg width=60% /&gt;
+&lt;p&gt;In order to ensure that the water-cooling system works properly, I additionally designed a temperature protection circuit and realized it through the STC51.&lt;/p&gt;
+&lt;img src=2.jpg width=60% /&gt;
+&lt;p&gt;Look at the power test.&lt;/p&gt;
+&lt;img src=laser1.jpg width=60% /&gt;
+</description>
         </item>
         <item>
         <title>Galleries</title>
@@ -391,7 +670,8 @@ Current 3000A&lt;/p&gt;
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/galleries/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/galleries/star.jpg" alt="Featured image of post Galleries" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/galleries/star.jpg" alt="Featured image of post Galleries" /&gt;&lt;p&gt;Photographed in Helan Mountain, 2022.8.31&lt;/p&gt;
+&lt;img src=stars2.jpg width=80% /&gt;</description>
         </item>
         <item>
         <title>Links</title>
@@ -424,23 +704,11 @@ links:
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/my-equipment/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/my-equipment/cover-fluke.jpg" alt="Featured image of post My Equipment" /&gt;</description>
-        </item>
-        <item>
-        <title>My Undergraduate Design</title>
-        <link>https://skylakc.github.io/p/my-undergraduate-design/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/my-undergraduate-design/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/my-undergraduate-design/fly.jpg" alt="Featured image of post My Undergraduate Design" /&gt;</description>
-        </item>
-        <item>
-        <title>Potato Boy</title>
-        <link>https://skylakc.github.io/p/potato-boy/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/potato-boy/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/potato-boy/potato.jpg" alt="Featured image of post Potato Boy" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/my-equipment/cover-fluke.jpg" alt="Featured image of post My Equipment" /&gt;&lt;p&gt;This page documents some of my instruments and equipment.&lt;/p&gt;
+&lt;img src=cover-fluke.jpg width=80% /&gt;
+&lt;img src=equip2.jpeg width=80% /&gt;
+&lt;img src=camera1.jpg width=80% /&gt;
+</description>
         </item>
         <item>
         <title>Search</title>
@@ -449,84 +717,6 @@ links:
         
         <guid>https://skylakc.github.io/search/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>The rebirth of a gesoline car</title>
-        <link>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/car.png" alt="Featured image of post The rebirth of a gesoline car" /&gt;&lt;p&gt;I bought a 12 used car, which model is Volkswagen Golf MK4 1.8L Naturally Aspirated.&lt;/p&gt;
-&lt;p&gt;After an accident, I have to repair my car.&lt;/p&gt;
-&lt;p&gt;The car is built on the same platform as the Audi TT MK1 named PQ34.&lt;/p&gt;
-&lt;p&gt;As a result, I&amp;rsquo;ve used a variety of processes to modify my car, including but not limited to add a new turbocharger&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
-&lt;h3 id=&#34;engine&#34;&gt;Engine&lt;/h3&gt;
-&lt;img src=teardown.jpg width=60% /&gt;
-&lt;p&gt;This is the cylinder head. The hydraulic valve tappet has been damaged and the connecting surface is scratched.&lt;/p&gt;
-&lt;img src=head.jpg width=60% /&gt;
-&lt;p&gt;Crankshaft, Camshaft, pitsons, rod, freewheel, these have been taken down.&lt;/p&gt;
-&lt;img src=shafts.jpg width=60% /&gt;
-&lt;p&gt;The floating bearing has been severely damaged.&lt;/p&gt;
-&lt;img src=bearing.jpg width=30% /&gt;
-&lt;h3 id=&#34;gearbox&#34;&gt;Gearbox&lt;/h3&gt;
-&lt;p&gt;The transmission was likewise removed and disassembled&lt;/p&gt;
-&lt;img src=gearbox.jpg width=50% /&gt;
-&lt;h3 id=&#34;interiors&#34;&gt;Interiors&lt;/h3&gt;
-&lt;p&gt;For the interiors, the carpets, dashboard, seats, and central tunnel were &lt;strong&gt;all&lt;/strong&gt; removed.&lt;/p&gt;
-&lt;img src=tear2.jpg width=60% /&gt;
-&lt;p&gt;Glass Lifter Removal and Speaker Replacement&lt;/p&gt;
-&lt;img src=stero.jpg width=60% /&gt;
-&lt;p&gt;Twelve-handed objects always have some electrical problems&lt;/p&gt;
-&lt;img src=wires.png width=60% /&gt;
-&lt;h2 id=&#34;rebuilding&#34;&gt;Rebuilding&lt;/h2&gt;
-&lt;p&gt;New Life&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;h3 id=&#34;engine-1&#34;&gt;Engine&lt;/h3&gt;
-&lt;p&gt;Rebuilding&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;img src=cyclinder1.jpg width=60% /&gt;
-&lt;img src=polishing.jpg width=60% /&gt;
-&lt;p&gt;Valve grinding.&lt;/p&gt;
-&lt;img src=valve1.jpg width=60% /&gt;
-&lt;h3 id=&#34;ecu-program&#34;&gt;ECU Program&lt;/h3&gt;
-&lt;p&gt;I rebuilt the whole ECU hardware and software. The main MCU replaced by Infineon Aurix TC264 with higher frequency, which completely improves the sensor refresh rate and provides a high-speed interface for logging.&lt;/p&gt;
-&lt;img src=ECUs.jpg width=60% /&gt;
-&lt;h2 id=&#34;installing&#34;&gt;Installing&lt;/h2&gt;
-&lt;p&gt;A long way to go&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;h3 id=&#34;engine-2&#34;&gt;Engine&lt;/h3&gt;
-&lt;p&gt;Everything is new, new cylinder barrels, new bearings, new gaskets.&lt;/p&gt;
-&lt;p&gt;Cylinder roundness measurement in progress&lt;/p&gt;
-&lt;img src=Install3.png width=60% /&gt;
-&lt;p&gt;Install new valve seals, valve hydraulic tappets, valve springs&lt;/p&gt;
-&lt;img src=install4.png width=60% /&gt;
-&lt;p&gt;Install forged crankshaft.&lt;/p&gt;
-&lt;img src=install7.png width=60% /&gt;
-&lt;p&gt;Oil pump, oil suction nozzle installed, oil pan installed&lt;/p&gt;
-&lt;img src=install6.png width=60% /&gt;
-&lt;p&gt;New gas valve base.&lt;/p&gt;
-&lt;img src=install5.png width=60% /&gt;
-&lt;p&gt;Forged pitsons and rods.&lt;/p&gt;
-&lt;img src=rods.png width=60% /&gt;
-&lt;img src=install7.jpg width=60% /&gt;
-&lt;h3 id=&#34;intake--turbocharger&#34;&gt;Intake &amp;amp; Turbocharger&lt;/h3&gt;
-&lt;p&gt;Cylinded head has been installed.&lt;/p&gt;
-&lt;img src=install9.jpg width=60% /&gt;
-&lt;h3 id=&#34;assembling&#34;&gt;Assembling&lt;/h3&gt;
-&lt;img src=install12.jpg width=60% /&gt;
-&lt;p&gt;Engine wires, which include sensors, ignitations and fuel injector.&lt;/p&gt;
-&lt;img src=install13.jpg width=60% /&gt;
-&lt;p&gt;Installing engine.&lt;/p&gt;
-&lt;img src=install11.jpg width=60% /&gt;
-&lt;img src=install1.png width=60% /&gt;
-&lt;img src=install2.png width=60% /&gt;
-&lt;img src=install10.png width=60% /&gt;
-&lt;h2 id=&#34;finished&#34;&gt;Finished&lt;/h2&gt;
-&lt;p&gt;Channel1 is the Crankshaft Signal.&lt;/p&gt;
-&lt;p&gt;Channel2 is the Camshaft Signal.&lt;/p&gt;
-&lt;p&gt;Engine is working well.&lt;/p&gt;
-&lt;img src=Signal.jpg width=60% /&gt;
-&lt;img src=finished.jpg width=60% /&gt;
-&lt;p&gt;Finally, my car had fully accomplished its rebirth way.&lt;/p&gt;
-&lt;img src=run.jpg width=60% /&gt;</description>
         </item>
         
     </channel>

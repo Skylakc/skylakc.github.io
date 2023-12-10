@@ -5,13 +5,33 @@
         <link>https://skylakc.github.io/tags/uav/</link>
         <description>Recent content in UAV on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="https://skylakc.github.io/tags/uav/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/uav/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My Undergraduate Design</title>
         <link>https://skylakc.github.io/p/my-undergraduate-design/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/my-undergraduate-design/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/my-undergraduate-design/fly.jpg" alt="Featured image of post My Undergraduate Design" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/my-undergraduate-design/fly.jpg" alt="Featured image of post My Undergraduate Design" /&gt;&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;p&gt;When I was in high school, I was introduced to flight controls and multirotors.&lt;/p&gt;
+&lt;img src=1.jpg width=60% /&gt;
+&lt;p&gt;I learned what a MultiWii is, and the famous Ardupilot.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d be thinking about how to get MultiWii&amp;rsquo;s complicated code to run in the Atmel 328p that I could afford at the time.&lt;/p&gt;
+&lt;img src=6.jpg width=60% /&gt;
+&lt;p&gt;Followed by Ardupilot running in Atmega2560. I tuned it all the day.&lt;/p&gt;
+&lt;img src=3.jpg width=60% /&gt;
+&lt;p&gt;Then there&amp;rsquo;s the revamped pixhawk 2.4.8.&lt;/p&gt;
+&lt;img src=7.jpg width=60% /&gt;
+&lt;p&gt;It also does some weird stuff in between, like the Y3 craft that relies on rudder control of the third axis tension vector angle to counteract spin.&lt;/p&gt;
+&lt;img src=5.jpg width=60% /&gt;
+&lt;p&gt;And the giant eight-axle, with a wheelbase of 1200mm.&lt;/p&gt;
+&lt;img src=4.jpg width=60% /&gt;
+&lt;p&gt;During my college years, I once again became involved with drones. This time, I won the national second prize of the TI Cup, the highest event of electronic competitions for college students, by designing the X4 myself.&lt;/p&gt;
+&lt;img src=UAV.jpg width=60% /&gt;
+&lt;img src=UAV2.jpg width=60% /&gt;
+&lt;p&gt;This project ended up being my senior project, and it was low enough to earn the title of Outstanding Thesis.&lt;/p&gt;
+&lt;img src=PRIZE.jpg width=60% /&gt;
+</description>
         </item>
         
     </channel>

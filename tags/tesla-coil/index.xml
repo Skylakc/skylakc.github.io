@@ -6,49 +6,88 @@
         <description>Recent content in Tesla-Coil on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 03 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/tesla-coil/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/tesla-coil/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My tesla coils</title>
         <link>https://skylakc.github.io/p/my-tesla-coils/</link>
-        <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/my-tesla-coils/</guid>
         <description>&lt;img src="https://skylakc.github.io/p/my-tesla-coils/coil.jpg" alt="Featured image of post My tesla coils" /&gt;&lt;p&gt;Me and lighting.&lt;/p&gt;
 &lt;p&gt;The duration of this project spanned my middle school and undergraduate years, and with each new location I always wanted to improve the design and implement it.&lt;/p&gt;
-&lt;h2 id=&#34;driver&#34;&gt;Driver&lt;/h2&gt;
+&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;p&gt;At first, I just wanna make a switching power supply. When I was came across to the NE555 chip, I found the mystery of AC world.&lt;/p&gt;
+&lt;p&gt;This is a CD4046 based PLL Driver.&lt;/p&gt;
+&lt;img src=4013.jpg width=60% /&gt;
+&lt;p&gt;So I changed my target and make a inverter. At the same time, I searched a interesting device which could released over 1,000,000 voltages. It was invented by Nicola Tesla.&lt;/p&gt;
+&lt;p&gt;Of course, the load of my inverter is Tesla Coil. To verified the functions of the coil, my first target is make a SGTC (Spark Gap Tesla Coil).&lt;/p&gt;
+&lt;img src=sgtc.jpg width=60% /&gt;
+&lt;p&gt;There is a HV generator and a inverter. At that time, I was a junior high school student. So my solution is Classical ZVS inverter + CRT Line output transformer.&lt;/p&gt;
+&lt;img src=zvs1.jpg width=60% /&gt;
+&lt;p&gt;Here are the arc of the output, 15kV DC Apporx.&lt;/p&gt;
+&lt;img src=arc.png width=60% /&gt;
 &lt;h3 id=&#34;gen-1&#34;&gt;Gen 1&lt;/h3&gt;
+&lt;p&gt;To replace the spark gap, we need to artificially control the coil with chips and transistors.&lt;/p&gt;
 &lt;p&gt;All circuit cited from Steve UD1.3&lt;/p&gt;
 &lt;p&gt;Based 74HC74/74HC08/74HC04&lt;/p&gt;
 &lt;p&gt;The isolator is HFBT1414/HFBT2412 ST Optical Fiber&lt;/p&gt;
 &lt;p&gt;The interrupt signal transmitted through Fiber.&lt;/p&gt;
+&lt;img src=driver1.jpg width=60% /&gt;
+&lt;p&gt;For inverter, I chose full bridge topology. The IGBT driver used magnetical isolatator (GDT, Gate Driver Transformer, made of Ethernet Wire)&lt;/p&gt;
+&lt;img src=inverter.jpg width=80% /&gt;
+&lt;p&gt;To control the working duration, I designed a interrupt signal generator. It based on NE555 and LM393.&lt;/p&gt;
+&lt;img src=interrupter.jpg width=80% /&gt;
+&lt;p&gt;Here are the testing site. The MCU responsible for generating a fake primary working excitation to trig the D trigger.&lt;/p&gt;
+&lt;img src=testing.jpg width=80% /&gt;
+&lt;p&gt;And the oscilloscope result.&lt;/p&gt;
+&lt;img src=testing2.jpg width=50% /&gt;
+&lt;img src=testing6.jpg width=50% /&gt;
+&lt;p&gt;This is the current sensor and feedback sensor.&lt;/p&gt;
+&lt;img src=sensor.jpg width=50% /&gt;
+&lt;p&gt;Then I mounted the relevant equipment to the coil.&lt;/p&gt;
+&lt;img src=primarycoil.jpg width=80% /&gt;
+&lt;img src=interrupter.jpg width=80% /&gt;
+&lt;p&gt;Finally, I got the whole device and I decided to test in my home. I have made a total of two coils based on different calculation parameters. My mom and dad helped me with the winding.&lt;/p&gt;
+&lt;img src=test.jpg width=80% /&gt;
+&lt;img src=coil0.jpg width=80% /&gt;
+&lt;img src=coil1.jpg width=80% /&gt;
+&lt;p&gt;Actually, the result is not good. I have to change my solution and debug the whole system.&lt;/p&gt;
 &lt;h3 id=&#34;gen-2&#34;&gt;Gen 2&lt;/h3&gt;
-&lt;p&gt;Based on CPLD Altera MAX II
-Integrated former door circuit into one chip.
-The new GDT driver used FDD8424H to instead of IRFP540/9540 totem pole MOS amplifier.&lt;/p&gt;
-&lt;h3 id=&#34;gen-3&#34;&gt;Gen 3&lt;/h3&gt;
-&lt;p&gt;Based on CPLD Xilinx CoolRunner II
-Try to design some low power circuit and faster PWM Signal in CPLD.
-Add a Phase shift circuit to protect the IGBT.
-Add a isolated IGBT driver though Fiber to instead of Gate Driver Transformer(GDT)
-The MAX current of LCR Serial Resonant circuit up to 3000Amps. The input power up to 20KW&lt;/p&gt;
-&lt;h3 id=&#34;gen-4&#34;&gt;Gen 4&lt;/h3&gt;
-&lt;p&gt;Based on Infineon Cypress PSoc, which integrated in FPGA, PGA and ARM
-Developed a GUI base on Node.js
-A digital operate pannel with various sensor data.&lt;/p&gt;
-&lt;h2 id=&#34;inverter&#34;&gt;Inverter&lt;/h2&gt;
-&lt;h3 id=&#34;gen-1-1&#34;&gt;Gen 1&lt;/h3&gt;
-&lt;p&gt;Based on IRFP260N Half Bridge&lt;/p&gt;
-&lt;h3 id=&#34;gen-2-1&#34;&gt;Gen 2&lt;/h3&gt;
-&lt;p&gt;Based on IRFP460 Full Bridge&lt;/p&gt;
-&lt;h3 id=&#34;gen-3-1&#34;&gt;Gen 3&lt;/h3&gt;
-&lt;p&gt;Based on induction cooker TO263 IGBT 40N120&lt;/p&gt;
-&lt;h3 id=&#34;gen-4-1&#34;&gt;Gen 4&lt;/h3&gt;
-&lt;p&gt;Based on parallel TO263 IGBT full bridge&lt;/p&gt;
-&lt;h3 id=&#34;gen-5&#34;&gt;Gen 5&lt;/h3&gt;
-&lt;p&gt;Based on IGBT module Mitsubishi CM300DY-12H
-Two sets of IGBT transistors integrated inside each module.&lt;/p&gt;
-&lt;h3 id=&#34;gen-6&#34;&gt;Gen 6&lt;/h3&gt;
-&lt;p&gt;Based on IGBT module Mitsubishi CM600HA-24H
-Current 3000A&lt;/p&gt;
+&lt;p&gt;Following the prompt, I reached out to the CPLD. Here are the next gen. driver.
+The solution based on CPLD Altera MAX II, which integrated whole door circuit into one chip.
+The new GDT driver used P-N MOSFET FDD8424H to instead of IRFP540/9540 totem pole MOS amplifier.&lt;/p&gt;
+&lt;img src=driver2.jpg width=80% /&gt;
+&lt;p&gt;At this time, I recalculated the resonance parameters, taking into account the conclusions of enthusiasts in other parts of the world.&lt;/p&gt;
+&lt;img src=testing3.jpg width=80% /&gt;
+&lt;p&gt;This time the result is very significant, at this point the resonant current has reached 100Amps according to the calculation, the IGBT is rated at 50Amps.&lt;/p&gt;
+&lt;p&gt;In order to be able to use the previous secondary coil and get better results, I set out to improve a new generation of inverters, this time with 5 IGBTs per arm in parallel.&lt;/p&gt;
+&lt;img src=inverter2.jpg width=80% /&gt;
+&lt;p&gt;I tested the coil at my home and my high school.&lt;/p&gt;
+&lt;img src=testing4.jpg width=80% /&gt;
+&lt;img src=testing5.jpg width=80% /&gt;
+&lt;h2 id=&#34;twisting&#34;&gt;Twisting&lt;/h2&gt;
+&lt;p&gt;As time went by I came to the university, because of some trivial things, I couldn&amp;rsquo;t concentrate on doing higher power testing. So I switched to doing some optimization design.&lt;/p&gt;
+&lt;p&gt;Here are the new gen. driver based on CPLD Xilinx CoolRunner II.
+In this board, I tried to design some protect circuit and faster PWM Signal in CPLD.
+Such as a Phase shift circuit to protect the IGBT.
+Also, I add a isolated IGBT driver though Fiber to instead of Gate Driver Transformer(GDT).&lt;/p&gt;
+&lt;img src=driver3.jpg width=80% /&gt;
+&lt;p&gt;The new platform in my lab.&lt;/p&gt;
+&lt;img src=coil4.jpg width=80% /&gt;
+&lt;p&gt;In this time, I tried to use the IGBT modules to build the full bridge inverter.&lt;/p&gt;
+&lt;img src=inverter3.jpg width=80% /&gt;
+&lt;p&gt;But It didn&amp;rsquo;t last long, as the program was quickly suspended by the school and terminated after I lobbied ineffectively.&lt;/p&gt;
+&lt;h2 id=&#34;rebirth&#34;&gt;Rebirth&lt;/h2&gt;
+&lt;p&gt;Restart, new life&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I still remember when I was in my third year of junior high school, my dad gave me 3,000 RMB to realize my dream, and in that year, I built an oversized IGBT inverter. But the lack of theoretical knowledge made me never successfully and safely drive up this big guy.&lt;/p&gt;
+&lt;img src=inverter5.jpg width=80% /&gt;
+&lt;p&gt;These are the resonant capacitors prepared at that time.&lt;/p&gt;
+&lt;img src=cap1.jpg width=80% /&gt;
+&lt;p&gt;And this is the secondary coil that was prepared at the time.&lt;/p&gt;
+&lt;img src=coil.jpg width=80% /&gt;
+&lt;p&gt;Before I did my graduation defense, I was reminded again of my childhood aspirations, so I redesigned the new driver circuit.   The new driver based on Infineon Cypress PSoc, which integrated in FPGA, PGA and ARM.&lt;/p&gt;
+&lt;p&gt;After that, I developed a GUI base on Node.js. It is a digital operate pannel with various sensor data.&lt;/p&gt;
+&lt;img src=teslanode.jpg width=80% /&gt;
+&lt;p&gt;I hope that someday I can actually finish and close this 10-year project!&lt;/p&gt;
 </description>
         </item>
         

@@ -5,13 +5,45 @@
         <link>https://skylakc.github.io/tags/stm32/</link>
         <description>Recent content in STM32 on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="https://skylakc.github.io/tags/stm32/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/stm32/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Potato Boy</title>
         <link>https://skylakc.github.io/p/potato-boy/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/potato-boy/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/potato-boy/potato.jpg" alt="Featured image of post Potato Boy" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/potato-boy/potato.jpg" alt="Featured image of post Potato Boy" /&gt;&lt;p&gt;This project comes from a joke that has been circulating the internet, &amp;ldquo;Your server is made of potatoes, right?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I finished the joke with my friend.&lt;/p&gt;
+&lt;p&gt;First, we need a full-power potato batteries.&lt;/p&gt;
+&lt;img src=0.jpg width=60% /&gt;
+&lt;p&gt;This is followed by a low-power system including a low-power processor, an Eink display, and a low-power Bluetooth gateway.&lt;/p&gt;
+&lt;img src=potato.jpg width=60% /&gt;
+&lt;p&gt;Then designed a PCB for it.&lt;/p&gt;
+&lt;img src=2.jpg width=60% /&gt;
+&lt;p&gt;Testing.&lt;/p&gt;
+&lt;img src=1.jpg width=60% /&gt;
+&lt;p&gt;This story ended up providing the source of the idea for the Tsinghua University admissions video.&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1bN4y137HJ&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
         </item>
         
     </channel>

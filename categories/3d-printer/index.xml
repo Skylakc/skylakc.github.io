@@ -5,13 +5,22 @@
         <link>https://skylakc.github.io/categories/3d-printer/</link>
         <description>Recent content in 3D Printer on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="https://skylakc.github.io/categories/3d-printer/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/categories/3d-printer/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>3D Printer</title>
         <link>https://skylakc.github.io/p/3d-printer/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/3d-printer/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/3d-printer/1.jpg" alt="Featured image of post 3D Printer" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/3d-printer/1.jpg" alt="Featured image of post 3D Printer" /&gt;&lt;p&gt;I made a cross shaft driven 3D printer to make a device enclosure and some structural assembly parts.&lt;/p&gt;
+&lt;img src=2.jpg width=60% /&gt;
+&lt;p&gt;In the beginning, I used a common stepper motor driver DRV8825. this driver is a square wave driver and generates a lot of noise.&lt;/p&gt;
+&lt;img src=3.jpg width=60% /&gt;
+&lt;p&gt;So I developed a stepper motor driver using SPWM signal drive based on what I learned. I then added a magnetic encoder and the SPWM driver was changed to SVPWM and current loop closed loop control was added. The end result was very good vibration control and quietness.&lt;/p&gt;
+&lt;img src=4.jpg width=60% /&gt;
+&lt;img src=5.jpg width=60% /&gt;
+&lt;p&gt;Related devices has been opensourced in my github.&lt;/p&gt;
+</description>
         </item>
         
     </channel>

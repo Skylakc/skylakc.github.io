@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Motor-Driver on Skylake&#39;s Blog</title>
+        <link>https://skylakc.github.io/categories/motor-driver/</link>
+        <description>Recent content in Motor-Driver on Skylake&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sun, 13 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/categories/motor-driver/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Universal Driver</title>
+        <link>https://skylakc.github.io/p/universal-driver/</link>
+        <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://skylakc.github.io/p/universal-driver/</guid>
+        <description>&lt;img src="https://skylakc.github.io/p/universal-driver/stm.jpg" alt="Featured image of post Universal Driver" /&gt;&lt;h1 id=&#34;developing&#34;&gt;Developing&amp;hellip;.&lt;/h1&gt;
+&lt;p&gt;Ready to implement a modular general-purpose motor driver with support for various algorithms, complete protection, multiple sensors, with signal outputs and oscilloscope&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Isolated Op Amps&lt;/p&gt;
+&lt;p&gt;Isolated Power Supplies&lt;/p&gt;
+&lt;p&gt;as2s1210&lt;/p&gt;
+&lt;p&gt;ad7401 (bus voltage three phase current)&lt;/p&gt;
+&lt;p&gt;zynq&lt;/p&gt;
+&lt;p&gt;Input voltage 10-60&lt;/p&gt;
+&lt;p&gt;Input current 80a&lt;/p&gt;
+&lt;p&gt;3.3v20a capacity (test pw22 and zxd10)&lt;/p&gt;
+&lt;p&gt;5v8a capacity&lt;/p&gt;
+&lt;p&gt;tlv62130tps51200 quad power and ddr&lt;/p&gt;
+&lt;p&gt;rtl8211 network phy two&lt;/p&gt;
+&lt;p&gt;ft2232 jtag&lt;/p&gt;
+&lt;p&gt;max232 rs232 architecture&lt;/p&gt;
+&lt;p&gt;Isolated can?&lt;/p&gt;
+&lt;p&gt;hdmi phy?&lt;/p&gt;
+&lt;p&gt;Connector&lt;/p&gt;
+&lt;p&gt;Differential Encoder Receive&lt;/p&gt;
+&lt;p&gt;Encoder Input Optical Isolation&lt;/p&gt;
+&lt;p&gt;Reserve rotary position&lt;/p&gt;
+&lt;p&gt;encoder signal input mux&lt;/p&gt;
+&lt;p&gt;cpld12 line pwm protection&lt;/p&gt;
+&lt;p&gt;ad7124-8 temperature phase voltage bus voltage&lt;/p&gt;
+&lt;p&gt;ad7124&lt;/p&gt;
+&lt;p&gt;stm32 function&lt;/p&gt;
+&lt;p&gt;Four-way voltage protection All four outputs leave a test point&lt;/p&gt;
+&lt;p&gt;bus voltage protection (bus voltage resistor network after leaving the test point to connect two voltage followers one into the cpu, one into the south bridge to leave the test point) (bus voltage small power board with pmos, high power with AC contactor)&lt;/p&gt;
+&lt;p&gt;Temperature protection (read 7124)&lt;/p&gt;
+&lt;p&gt;hard overcurrent protection with a comparator opamp, the stm32 output pwm through the second-order filters
+(later these functional requirements are realized with fpga, the protection logic is not involved in the software)&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

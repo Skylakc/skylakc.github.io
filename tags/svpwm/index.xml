@@ -12,7 +12,25 @@
         <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/wave.jpg" alt="Featured image of post First look at the world of electric drives" /&gt;</description>
+        <description>&lt;img src="https://skylakc.github.io/p/first-look-at-the-world-of-electric-drives/wave.jpg" alt="Featured image of post First look at the world of electric drives" /&gt;&lt;p&gt;During my middle school years, I was introduced to model aviation. This is a type of aeromodeling that is powered by electric motors, mainly brushless motors. As my skills grew, I kept trying to make my own brushless motor drivers.&lt;/p&gt;
+&lt;img src=plane.jpg width=60% /&gt;
+&lt;h2 id=&#34;beginning&#34;&gt;Beginning&lt;/h2&gt;
+&lt;img src=driver3.jpg width=60% /&gt;
+&lt;p&gt;In fact, BLDC is driven by a simple, six-tap commutation method. Essentially BLDC is turning the commutator of a brushed DC motor into an electronic switch.&lt;/p&gt;
+&lt;img src=UVW1.jpg width=60% /&gt;
+&lt;p&gt;Very quickly, I made my own driver using a microcontroller.&lt;/p&gt;
+&lt;img src=UVW2.jpg width=60% /&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;p&gt;Then after that, I discovered the TI C2000 series microcontroller&amp;rsquo;s motor drive function library and PMSM motors. the FOC algorithm can bring infinite possibilities to motor drive.&lt;/p&gt;
+&lt;p&gt;So I built a motor lab platform. It was a 57 stepper motor plus an AMT102 optical encoder.&lt;/p&gt;
+&lt;img src=driver5.jpg width=60% /&gt;
+&lt;p&gt;Then MEMS technology-enabled magnetic encoders started to roll out in large numbers, and I ported the drive algorithms to an ST microcontroller, swapping out the optical encoder for a radial magnet-based magnetic encoder. Eventually a small motor driver board was made.&lt;/p&gt;
+&lt;img src=driver1.jpg width=60% /&gt;
+&lt;img src=driver2.jpg width=60% /&gt;
+&lt;img src=driver4.jpg width=60% /&gt;
+&lt;p&gt;Now, motors based on FOC control technology run in all the places in my house that need a motor drive, including my fish tank water pump, computer water pump, air conditioning inverter compressor, fresh air fan and so on.&lt;/p&gt;
+&lt;p&gt;I developed variety of driver board to control these motors. (Some of them are sensorless which works in a light load)&lt;/p&gt;
+</description>
         </item>
         
     </channel>

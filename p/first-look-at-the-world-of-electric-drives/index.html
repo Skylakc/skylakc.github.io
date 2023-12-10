@@ -338,7 +338,39 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#beginning">Beginning</a></li>
+    <li><a href="#development">Development</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
@@ -410,7 +442,7 @@
 
 
                 <time class="article-time--reading">
-                    0 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -425,7 +457,25 @@
     <section class="article-content">
     
     
-    
+    <p>During my middle school years, I was introduced to model aviation. This is a type of aeromodeling that is powered by electric motors, mainly brushless motors. As my skills grew, I kept trying to make my own brushless motor drivers.</p>
+<img src=plane.jpg width=60% />
+<h2 id="beginning">Beginning</h2>
+<img src=driver3.jpg width=60% />
+<p>In fact, BLDC is driven by a simple, six-tap commutation method. Essentially BLDC is turning the commutator of a brushed DC motor into an electronic switch.</p>
+<img src=UVW1.jpg width=60% />
+<p>Very quickly, I made my own driver using a microcontroller.</p>
+<img src=UVW2.jpg width=60% />
+<h2 id="development">Development</h2>
+<p>Then after that, I discovered the TI C2000 series microcontroller&rsquo;s motor drive function library and PMSM motors. the FOC algorithm can bring infinite possibilities to motor drive.</p>
+<p>So I built a motor lab platform. It was a 57 stepper motor plus an AMT102 optical encoder.</p>
+<img src=driver5.jpg width=60% />
+<p>Then MEMS technology-enabled magnetic encoders started to roll out in large numbers, and I ported the drive algorithms to an ST microcontroller, swapping out the optical encoder for a radial magnet-based magnetic encoder. Eventually a small motor driver board was made.</p>
+<img src=driver1.jpg width=60% />
+<img src=driver2.jpg width=60% />
+<img src=driver4.jpg width=60% />
+<p>Now, motors based on FOC control technology run in all the places in my house that need a motor drive, including my fish tank water pump, computer water pump, air conditioning inverter compressor, fresh air fan and so on.</p>
+<p>I developed variety of driver board to control these motors. (Some of them are sensorless which works in a light load)</p>
+
 </section>
 
 

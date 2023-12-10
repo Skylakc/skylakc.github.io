@@ -12,10 +12,24 @@
         <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/the-beginning-of-smart-home/</guid>
-        <description>&lt;img src="https://skylakc.github.io/p/the-beginning-of-smart-home/rack.jpg" alt="Featured image of post The beginning of Smart Home" /&gt;&lt;p&gt;这件事情如果一定要追溯，那应该来自初中对钢铁侠的热爱&lt;/p&gt;
-&lt;h1 id=&#34;the-prototype-of-jarvis&#34;&gt;The prototype of Jarvis&lt;/h1&gt;
-&lt;p&gt;STC8051+LD3320&lt;/p&gt;
-&lt;h1 id=&#34;home-assistant&#34;&gt;Home Assistant&lt;/h1&gt;
+        <description>&lt;img src="https://skylakc.github.io/p/the-beginning-of-smart-home/rack.jpg" alt="Featured image of post The beginning of Smart Home" /&gt;&lt;p&gt;This is something that, if it had to be traced, would have come from a middle school love of Iron Man.&lt;/p&gt;
+&lt;p&gt;I wanna have the same Jarvis.&lt;/p&gt;
+&lt;h2 id=&#34;the-prototype-of-jarvis&#34;&gt;The prototype of Jarvis&lt;/h2&gt;
+&lt;p&gt;The solution is STC8051+LD3320.&lt;/p&gt;
+&lt;img src=v1.jpg width=60% /&gt;
+&lt;p&gt;The solution&amp;rsquo;s judgment is based on Chinese pinyin, and the recognition is very inaccurate, but it satisfies the needs of junior high school me who didn&amp;rsquo;t want to get out of bed and turn off the light on winter nights.&lt;/p&gt;
+&lt;p&gt;To make the system look less thin and boring, I added a Bluetooth audio system&lt;/p&gt;
+&lt;img src=v2.jpg width=60% /&gt;
+&lt;img src=v21.jpg width=60% /&gt;
+&lt;img src=v22.jpg width=60% /&gt;
+&lt;h2 id=&#34;home-assistant&#34;&gt;Home Assistant&lt;/h2&gt;
+&lt;img src=v31.jpg width=60% /&gt;
+&lt;p&gt;The second generation is based on Homeassistant, a python-based hub system.&lt;/p&gt;
+&lt;p&gt;In the meantime, I moved to a new home. The garage holds a whole rack of servers.&lt;/p&gt;
+&lt;img src=rack1.jpg width=60% /&gt;
+&lt;p&gt;In this server I ran the routing system and the smart home system. I then developed the voice input and output modules for the new system as well.&lt;/p&gt;
+&lt;img src=v3.jpg width=60% /&gt;
+&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         

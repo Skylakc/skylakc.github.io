@@ -5,10 +5,11 @@
         <link>https://skylakc.github.io/tags/ecu/</link>
         <description>Recent content in ECU on Skylake&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="https://skylakc.github.io/tags/ecu/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://skylakc.github.io/tags/ecu/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>The rebirth of a gesoline car</title>
         <link>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
         
         <guid>https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/</guid>
         <description>&lt;img src="https://skylakc.github.io/p/the-rebirth-of-a-gesoline-car/car.png" alt="Featured image of post The rebirth of a gesoline car" /&gt;&lt;p&gt;I bought a 12 used car, which model is Volkswagen Golf MK4 1.8L Naturally Aspirated.&lt;/p&gt;
@@ -17,71 +18,74 @@
 &lt;p&gt;As a result, I&amp;rsquo;ve used a variety of processes to modify my car, including but not limited to add a new turbocharger&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
 &lt;h3 id=&#34;engine&#34;&gt;Engine&lt;/h3&gt;
-&lt;img src=teardown.jpg width=60% /&gt;
+&lt;img src=teardown.jpg width=80% /&gt;
 &lt;p&gt;This is the cylinder head. The hydraulic valve tappet has been damaged and the connecting surface is scratched.&lt;/p&gt;
-&lt;img src=head.jpg width=60% /&gt;
+&lt;img src=head.jpg width=80% /&gt;
 &lt;p&gt;Crankshaft, Camshaft, pitsons, rod, freewheel, these have been taken down.&lt;/p&gt;
-&lt;img src=shafts.jpg width=60% /&gt;
+&lt;img src=shafts.jpg width=80% /&gt;
 &lt;p&gt;The floating bearing has been severely damaged.&lt;/p&gt;
-&lt;img src=bearing.jpg width=30% /&gt;
+&lt;img src=bearing.jpg width=80% /&gt;
 &lt;h3 id=&#34;gearbox&#34;&gt;Gearbox&lt;/h3&gt;
 &lt;p&gt;The transmission was likewise removed and disassembled&lt;/p&gt;
-&lt;img src=gearbox.jpg width=50% /&gt;
+&lt;img src=gearbox.jpg width=80% /&gt;
 &lt;h3 id=&#34;interiors&#34;&gt;Interiors&lt;/h3&gt;
 &lt;p&gt;For the interiors, the carpets, dashboard, seats, and central tunnel were &lt;strong&gt;all&lt;/strong&gt; removed.&lt;/p&gt;
-&lt;img src=tear2.jpg width=60% /&gt;
+&lt;img src=tear2.jpg width=80% /&gt;
 &lt;p&gt;Glass Lifter Removal and Speaker Replacement&lt;/p&gt;
-&lt;img src=stero.jpg width=60% /&gt;
+&lt;img src=stero.jpg width=80% /&gt;
 &lt;p&gt;Twelve-handed objects always have some electrical problems&lt;/p&gt;
-&lt;img src=wires.png width=60% /&gt;
+&lt;img src=wires.png width=80% /&gt;
 &lt;h2 id=&#34;rebuilding&#34;&gt;Rebuilding&lt;/h2&gt;
 &lt;p&gt;New Life&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;h3 id=&#34;engine-1&#34;&gt;Engine&lt;/h3&gt;
 &lt;p&gt;Rebuilding&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;img src=cyclinder1.jpg width=60% /&gt;
-&lt;img src=polishing.jpg width=60% /&gt;
+&lt;img src=cyclinder1.jpg width=80% /&gt;
+&lt;p&gt;Polishing&amp;hellip;&lt;/p&gt;
+&lt;img src=polishing.jpg width=80% /&gt;
 &lt;p&gt;Valve grinding.&lt;/p&gt;
-&lt;img src=valve1.jpg width=60% /&gt;
+&lt;img src=valve1.jpg width=80% /&gt;
 &lt;h3 id=&#34;ecu-program&#34;&gt;ECU Program&lt;/h3&gt;
 &lt;p&gt;I rebuilt the whole ECU hardware and software. The main MCU replaced by Infineon Aurix TC264 with higher frequency, which completely improves the sensor refresh rate and provides a high-speed interface for logging.&lt;/p&gt;
-&lt;img src=ECUs.jpg width=60% /&gt;
+&lt;img src=ECUs.jpg width=80% /&gt;
 &lt;h2 id=&#34;installing&#34;&gt;Installing&lt;/h2&gt;
 &lt;p&gt;A long way to go&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;h3 id=&#34;engine-2&#34;&gt;Engine&lt;/h3&gt;
 &lt;p&gt;Everything is new, new cylinder barrels, new bearings, new gaskets.&lt;/p&gt;
 &lt;p&gt;Cylinder roundness measurement in progress&lt;/p&gt;
-&lt;img src=Install3.png width=60% /&gt;
+&lt;img src=Install3.png width=80% /&gt;
 &lt;p&gt;Install new valve seals, valve hydraulic tappets, valve springs&lt;/p&gt;
-&lt;img src=install4.png width=60% /&gt;
+&lt;img src=install4.png width=80% /&gt;
 &lt;p&gt;Install forged crankshaft.&lt;/p&gt;
-&lt;img src=install7.png width=60% /&gt;
+&lt;img src=install7.png width=80% /&gt;
 &lt;p&gt;Oil pump, oil suction nozzle installed, oil pan installed&lt;/p&gt;
-&lt;img src=install6.png width=60% /&gt;
+&lt;img src=install6.png width=80% /&gt;
 &lt;p&gt;New gas valve base.&lt;/p&gt;
-&lt;img src=install5.png width=60% /&gt;
+&lt;img src=install5.png width=80% /&gt;
 &lt;p&gt;Forged pitsons and rods.&lt;/p&gt;
-&lt;img src=rods.png width=60% /&gt;
-&lt;img src=install7.jpg width=60% /&gt;
+&lt;img src=rods.png width=80% /&gt;
+&lt;img src=install7.jpg width=80% /&gt;
 &lt;h3 id=&#34;intake--turbocharger&#34;&gt;Intake &amp;amp; Turbocharger&lt;/h3&gt;
 &lt;p&gt;Cylinded head has been installed.&lt;/p&gt;
-&lt;img src=install9.jpg width=60% /&gt;
+&lt;img src=install9.jpg width=80% /&gt;
 &lt;h3 id=&#34;assembling&#34;&gt;Assembling&lt;/h3&gt;
-&lt;img src=install12.jpg width=60% /&gt;
+&lt;img src=install12.jpg width=80% /&gt;
 &lt;p&gt;Engine wires, which include sensors, ignitations and fuel injector.&lt;/p&gt;
-&lt;img src=install13.jpg width=60% /&gt;
+&lt;img src=install13.jpg width=80% /&gt;
 &lt;p&gt;Installing engine.&lt;/p&gt;
-&lt;img src=install11.jpg width=60% /&gt;
-&lt;img src=install1.png width=60% /&gt;
-&lt;img src=install2.png width=60% /&gt;
-&lt;img src=install10.png width=60% /&gt;
+&lt;img src=install11.jpg width=80% /&gt;
+&lt;img src=install1.png width=80% /&gt;
+&lt;img src=install2.png width=80% /&gt;
+&lt;img src=install10.png width=80% /&gt;
 &lt;h2 id=&#34;finished&#34;&gt;Finished&lt;/h2&gt;
 &lt;p&gt;Channel1 is the Crankshaft Signal.&lt;/p&gt;
 &lt;p&gt;Channel2 is the Camshaft Signal.&lt;/p&gt;
 &lt;p&gt;Engine is working well.&lt;/p&gt;
-&lt;img src=Signal.jpg width=60% /&gt;
-&lt;img src=finished.jpg width=60% /&gt;
+&lt;img src=Signal.jpg width=80% /&gt;
+&lt;img src=finished.jpg width=80% /&gt;
 &lt;p&gt;Finally, my car had fully accomplished its rebirth way.&lt;/p&gt;
-&lt;img src=run.jpg width=60% /&gt;</description>
+&lt;img src=run.jpg width=80% /&gt;
+&lt;p&gt;PS: Most of the process here took place in my garage, the lift for the installation process came from a friend&amp;rsquo;s garage, thanks again to Mr. Wei Ting (魏挺) of Yinchuan Junwei（君威） Auto Repair Cente for the venue support.&lt;/p&gt;
+</description>
         </item>
         
     </channel>
