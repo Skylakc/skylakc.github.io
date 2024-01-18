@@ -20,7 +20,9 @@
 &lt;p&gt;I have coded some programs in C/C++, Verilog and Python, for more than 100,000 lines.&lt;/p&gt;
 &lt;p&gt;This includes a wide variety of projects, large and small, that I have done. The main content focuses on Embedded System and FPGA. There are times when I work on open-source projects or train new neural network models to solve some problems around me that need to be automated.&lt;/p&gt;
 &lt;p&gt;I learned very well from Prof. Xinjie Yu course on circuit principles. Also studied analog and digital circuits systematically. So in terms of circuit analysis I think I have solid basic skills.&lt;/p&gt;
-&lt;h1 id=&#34;here-are-my-cvs&#34;&gt;Here are my CVs.&lt;/h1&gt;
+&lt;!-- # Here are my CVs.
+
+
 &lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
 
 &lt;style&gt;
@@ -268,7 +270,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-1
     });
     })();
 &lt;/script&gt;
-
+ --&gt;
 &lt;p&gt;Thank you again for visiting my website.&lt;/p&gt;
 </description>
         </item>
