@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "I am always a student."
+description: "PhD student at PolyU EEE · RCEV · Founder of PhotonJoy"
 date: 2023-12-01
 slug: about
 aliases:
@@ -17,7 +17,16 @@ menu:
             icon: user
 ---
 
-I am a PhD student in the Department of Electrical and Electronic Engineering (EEE) at The Hong Kong Polytechnic University, and the founder of PhotonJoy Technology Co., Ltd.
+I am a PhD student in the Department of Electrical and Electronic Engineering (EEE) at The Hong Kong Polytechnic University and a member of the Research Centre for Electric Vehicles (RCEV), supervised by Dr. WANG Hui and Prof. K.T. Chau. I am also the founder of PhotonJoy Technology Co., Ltd.; our online store, [HaloPlasma](https://haloplasma.com/), designs plasma toroids and experiment kits for makers and enthusiasts.
+
+My research focuses on dynamic wireless charging, wireless motors and transcranial magnetic stimulation. More broadly, I work on power electronics, motor drives, embedded systems and FPGA design — the same threads that run through the projects on this site.
+
+## Research Interests
+
+- Dynamic wireless charging
+- Wireless motor
+- Transcranial magnetic stimulation
+- Power electronics, motor drives, embedded systems and FPGA
 
 ## Hardware Experience
 
@@ -35,8 +44,10 @@ This includes a wide variety of projects, large and small. The main content focu
 
 I learned a great deal from Prof. Xinjie Yu's course on circuit principles, and I also studied analog and digital circuits systematically. In terms of circuit analysis, I believe I have solid fundamentals.
 
-## CV
+## Links
 
-[Download my CV (PDF)](/file/CV1_SHANG%20Zhenyu.pdf)
+- [RCEV team members](https://www.polyu.edu.hk/rcev/people/team-members/)
+- [HaloPlasma online store](https://haloplasma.com/)
+- [CV (PDF)](/file/CV_SHANG_Zhenyu.pdf)
 
 Thank you again for visiting my website.

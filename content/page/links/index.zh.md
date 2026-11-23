@@ -3,6 +3,13 @@ title: "友链"
 slug: links
 description: "互联网上一些有用的地方。"
 links:
+  - title: HaloPlasma
+    description: PhotonJoy 出品的等离子体环与实验套件。
+    website: https://haloplasma.com/
+    image: haloplasma.jpg
+  - title: RCEV
+    description: 香港理工大学电动汽车研究中心。
+    website: https://www.polyu.edu.hk/rcev/
   - title: Google
     description: 搜索的起点。
     website: https://www.google.com/

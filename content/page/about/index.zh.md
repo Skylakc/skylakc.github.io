@@ -1,6 +1,6 @@
 ---
 title: "关于我"
-description: "永远是学生"
+description: "香港理工大学 EEE 博士生 · RCEV 成员 · PhotonJoy 创始人"
 date: 2023-12-01
 slug: about
 lastmod: 2026-11-24
@@ -11,7 +11,16 @@ menu:
             icon: user
 ---
 
-我是香港理工大学电机及电子工程学系（EEE）的博士生，也是 PhotonJoy Technology Co., Ltd. 的创始人。
+我是香港理工大学电机及电子工程学系（EEE）的博士生，也是电动汽车研究中心（RCEV）成员，导师为 Dr. WANG Hui 和 Prof. K.T. Chau。同时，我是 PhotonJoy Technology Co., Ltd. 的创始人；公司旗下线上商店 [HaloPlasma](https://haloplasma.com/) 为创客和爱好者设计等离子体环（Plasma Toroid）与实验套件。
+
+我的研究聚焦动态无线充电、无线电机与经颅磁刺激；更广泛地，我从事电力电子、电机驱动、嵌入式系统与 FPGA 设计，这也是本站大部分项目的线索。
+
+## 研究方向
+
+- 动态无线充电
+- 无线电机
+- 经颅磁刺激
+- 电力电子、电机驱动、嵌入式系统与 FPGA
 
 ## 硬件经历
 
@@ -29,8 +38,10 @@ menu:
 
 我从于歆杰老师的电路原理课程中受益很多，也系统学习过模拟电路和数字电路。因此在电路分析方面，我认为自己的基础是扎实的。
 
-## 简历
+## 链接
 
-[下载我的简历（PDF）](/file/CV1_SHANG%20Zhenyu.pdf)
+- [RCEV 团队成员](https://www.polyu.edu.hk/rcev/people/team-members/)
+- [HaloPlasma 线上商店](https://haloplasma.com/)
+- [简历（PDF）](/file/CV_SHANG_Zhenyu.pdf)
 
 再次感谢你访问我的网站。
