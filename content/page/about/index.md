@@ -19,11 +19,11 @@ menu:
 
 <div style="max-width: 320px; margin: 0 auto 2rem;">
 
-![Zhenyu Shang](portrait.jpg)
+![SHANG Zhenyu](portrait.jpg)
 
 </div>
 
-I am a PhD student in the Department of Electrical and Electronic Engineering (EEE) at The Hong Kong Polytechnic University and a member of the [Research Centre for Electric Vehicles (RCEV)](https://www.polyu.edu.hk/rcev/), supervised by Dr. WANG Hui and Prof. K.T. Chau. I am also the founder of PhotonJoy Technology Co., Ltd.; our online store, [HaloPlasma](https://haloplasma.com/), is dedicated to plasma toroids and plasma-light devices for makers and enthusiasts.
+I am **SHANG Zhenyu** (Eric; online as **Skylake**), a PhD student in the Department of Electrical and Electronic Engineering (EEE) at The Hong Kong Polytechnic University and a member of the [Research Centre for Electric Vehicles (RCEV)](https://www.polyu.edu.hk/rcev/), supervised by Dr. WANG Hui and Prof. K.T. Chau. I am also the founder of PhotonJoy Technology Co., Ltd.; our online store, [HaloPlasma](https://haloplasma.com/), is dedicated to plasma toroids and plasma-light devices for makers and enthusiasts.
 
 My research focuses on dynamic wireless charging, wireless motors and transcranial magnetic stimulation. More broadly, I work on power electronics, motor drives, embedded systems and FPGA design — the same threads that run through the projects on this site.
 
@@ -52,9 +52,9 @@ I learned a great deal from Prof. Xinjie Yu's course on circuit principles, and 
 
 ## Photos
 
-![Plasma toroids from HaloPlasma](plasma.jpg) ![Robot demo on CCTV's Science Mobilization](cctv.jpg)
+![Plasma toroids from HaloPlasma](plasma.jpg) ![Championship-winning robot demo on CCTV's Science Mobilization](cctv.jpg)
 
-*HaloPlasma plasma toroids, and a robot demo on CCTV's 《科学总动员》.*
+*HaloPlasma plasma toroids, and the championship-winning robot demo on CCTV's 《科学总动员》 in high school.*
 
 ## Elsewhere
 

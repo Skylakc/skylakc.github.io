@@ -1,6 +1,6 @@
 # Skylake's Blog
 
-Personal site of Eric Shang (Skylake) — PhD student at PolyU EEE, founder of PhotonJoy Technology Co., Ltd.
+Personal site of SHANG Zhenyu (Eric, online as Skylake) — PhD student at PolyU EEE, founder of PhotonJoy Technology Co., Ltd.
 
 Built with [Hugo](https://gohugo.io/) and [Hugo Theme Stack](https://github.com/CaiJimmy/hugo-theme-stack) v4. Deployed automatically to GitHub Pages via GitHub Actions.
 

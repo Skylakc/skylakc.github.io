@@ -13,11 +13,11 @@ menu:
 
 <div style="max-width: 320px; margin: 0 auto 2rem;">
 
-![Zhenyu Shang](portrait.jpg)
+![SHANG Zhenyu](portrait.jpg)
 
 </div>
 
-我是香港理工大学电机及电子工程学系（EEE）的博士生，也是[电动汽车研究中心（RCEV）](https://www.polyu.edu.hk/rcev/)成员，导师为 Dr. WANG Hui 和 Prof. K.T. Chau。同时，我是 PhotonJoy Technology Co., Ltd. 的创始人；公司旗下线上商店 [HaloPlasma](https://haloplasma.com/) 专注于等离子体环（Plasma Toroid）等装置，面向创客与爱好者。
+我是 **SHANG Zhenyu**（英文名 Eric，网名 Skylake），香港理工大学电机及电子工程学系（EEE）的博士生，也是[电动汽车研究中心（RCEV）](https://www.polyu.edu.hk/rcev/)成员，导师为 Dr. WANG Hui 和 Prof. K.T. Chau。同时，我是 PhotonJoy Technology Co., Ltd. 的创始人；公司旗下线上商店 [HaloPlasma](https://haloplasma.com/) 专注于等离子体环（Plasma Toroid）等装置，面向创客与爱好者。
 
 我的研究聚焦动态无线充电、无线电机与经颅磁刺激；更广泛地，我从事电力电子、电机驱动、嵌入式系统与 FPGA 设计，这也是本站大部分项目的线索。
 
@@ -46,9 +46,9 @@ menu:
 
 ## 照片
 
-![HaloPlasma 等离子体装置](plasma.jpg) ![CCTV《科学总动员》机器人演示](cctv.jpg)
+![HaloPlasma 等离子体装置](plasma.jpg) ![高中时期在 CCTV《科学总动员》夺冠的机器人演示](cctv.jpg)
 
-*HaloPlasma 的等离子体环，以及在 CCTV《科学总动员》上的机器人演示。*
+*HaloPlasma 的等离子体环，以及高中时期在 CCTV《科学总动员》夺冠的机器人演示。*
 
 ## 更多
 
