@@ -1,7 +1,7 @@
 ---
 title: "我的本科毕业设计"
 date: 2022-06-01
-description: "在昆明理工 322 的青春终章"
+description: "在 322 宿舍的青春终章"
 slug: my-undergraduate-design
 categories:
   - UAV

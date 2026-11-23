@@ -1,7 +1,7 @@
 ---
 title: "My Undergraduate Design"
 date: 2022-06-01
-description: "The Ending of My Life in KMUST 322"
+description: "The Ending of My Life in Room 322"
 slug: my-undergraduate-design
 categories:
   - UAV
