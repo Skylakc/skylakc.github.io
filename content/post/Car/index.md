@@ -16,7 +16,7 @@ image: car.png
 weight: -1
 ---
 
-I bought a 12-year-old used car: a Volkswagen Golf MK4 1.8L, naturally aspirated.
+I bought a 2003 Volkswagen Golf MK4 1.8L, naturally aspirated. By the time it reached me, it had already passed through twelve owners.
 
 After an accident, I had to repair it.
 
@@ -58,7 +58,7 @@ Glass lifter removal and speaker replacement.
 
 ![](stero.jpg)
 
-A car that has passed through many hands always has some electrical problems.
+A twelfth-hand car always has some electrical problems.
 
 ![](wires.png)
 
