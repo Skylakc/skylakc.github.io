@@ -93,7 +93,7 @@ params:
         lastUpdated: ":date_full"
 
     sidebar:
-        emoji: 🍥
+        emoji: ⚡
         avatar: img/avatar.webp
 
     article:
