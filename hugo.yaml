@@ -102,6 +102,11 @@ params:
     imageProcessing:
         content:
             enabled: true
+            widths:
+                - 480
+                - 800
+                - 1200
+                - 1600
         thumbnail:
             enabled: true
 

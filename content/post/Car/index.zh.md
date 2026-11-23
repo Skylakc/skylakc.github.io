@@ -13,6 +13,7 @@ tags:
 series:
   - Notes
 image: car.png
+weight: -1
 ---
 
 我买了一辆 12 年车龄的二手车：大众高尔夫 MK4，1.8L 自然吸气。

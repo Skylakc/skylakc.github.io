@@ -13,6 +13,7 @@ tags:
 series:
   - Notes
 image: car.png
+weight: -1
 ---
 
 I bought a 12-year-old used car: a Volkswagen Golf MK4 1.8L, naturally aspirated.
