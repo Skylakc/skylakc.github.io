@@ -49,7 +49,7 @@ jobs:
 
       - name: Build
         run: |
-          echo "$GITHUB_WORKSPACE/node_modules/.bin" >> "$GITHUB_PATH"
+          export PATH="$GITHUB_WORKSPACE/node_modules/.bin:$PATH"
           hugo --gc --minify
 
       - name: Setup Pages
