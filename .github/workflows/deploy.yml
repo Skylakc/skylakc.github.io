@@ -23,21 +23,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.170.1
+      DART_SASS_VERSION: 1.108.2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Install Dart Sass
-        run: npm ci
 
       - name: Install Hugo
         run: |
@@ -47,10 +39,16 @@ jobs:
           tar -xzf hugo.tar.gz -C "$HOME/.local/bin" hugo
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
-      - name: Build
+      - name: Install Dart Sass
         run: |
-          export PATH="$GITHUB_WORKSPACE/node_modules/.bin:$PATH"
-          hugo --gc --minify
+          set -e
+          curl -sL -o dart-sass.tar.gz "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          mkdir -p "$HOME/.local/dart-sass"
+          tar -xzf dart-sass.tar.gz -C "$HOME/.local/dart-sass" --strip-components=1
+          echo "$HOME/.local/dart-sass" >> "$GITHUB_PATH"
+
+      - name: Build
+        run: hugo --gc --minify
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

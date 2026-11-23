@@ -8,15 +8,14 @@ Built with [Hugo](https://gohugo.io/) and [Hugo Theme Stack](https://github.com/
 
 - **Hugo 0.170.1+** (the extended edition no longer exists; all features except LibSass are in the single binary)
 - **Dart Sass 1.108+** — required by Stack v4
-  - Windows: install the [Dart Sass standalone release](https://github.com/sass/dart-sass/releases) and add its folder to `PATH` (the npm `sass` shim does not work reliably with Hugo on Windows)
-  - macOS/Linux: `npm install`
+  - Install the [Dart Sass standalone release](https://github.com/sass/dart-sass/releases) and add its folder to `PATH`
+  - The npm `sass` wrapper does not work reliably with Hugo (on Windows or in CI), so use the standalone binary
 - Git submodules for the theme
 
 ## Local development
 
 ```bash
 git submodule update --init --recursive
-npm install          # installs Dart Sass for macOS/Linux
 hugo server -D       # http://localhost:1313
 ```
 
