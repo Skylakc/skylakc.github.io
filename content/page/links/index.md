@@ -4,7 +4,7 @@ slug: links
 description: "Some useful places on the internet."
 links:
   - title: HaloPlasma
-    description: Plasma toroids and experiment kits from PhotonJoy.
+    description: Plasma toroids and plasma devices from PhotonJoy.
     website: https://haloplasma.com/
     image: haloplasma.jpg
   - title: RCEV

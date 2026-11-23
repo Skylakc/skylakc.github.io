@@ -4,7 +4,7 @@ slug: links
 description: "互联网上一些有用的地方。"
 links:
   - title: HaloPlasma
-    description: PhotonJoy 出品的等离子体环与实验套件。
+    description: PhotonJoy 出品的等离子体环等装置。
     website: https://haloplasma.com/
     image: haloplasma.jpg
   - title: RCEV

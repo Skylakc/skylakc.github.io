@@ -11,7 +11,7 @@ menu:
             icon: user
 ---
 
-我是香港理工大学电机及电子工程学系（EEE）的博士生，也是电动汽车研究中心（RCEV）成员，导师为 Dr. WANG Hui 和 Prof. K.T. Chau。同时，我是 PhotonJoy Technology Co., Ltd. 的创始人；公司旗下线上商店 [HaloPlasma](https://haloplasma.com/) 为创客和爱好者设计等离子体环（Plasma Toroid）与实验套件。
+我是香港理工大学电机及电子工程学系（EEE）的博士生，也是电动汽车研究中心（RCEV）成员，导师为 Dr. WANG Hui 和 Prof. K.T. Chau。同时，我是 PhotonJoy Technology Co., Ltd. 的创始人；公司旗下线上商店 [HaloPlasma](https://haloplasma.com/) 专注于等离子体环（Plasma Toroid）等装置，面向创客与爱好者。
 
 我的研究聚焦动态无线充电、无线电机与经颅磁刺激；更广泛地，我从事电力电子、电机驱动、嵌入式系统与 FPGA 设计，这也是本站大部分项目的线索。
 
