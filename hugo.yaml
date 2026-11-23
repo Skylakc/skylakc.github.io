@@ -31,6 +31,22 @@ languages:
                   params:
                       icon: store
                       newTab: true
+            social:
+                - identifier: github
+                  name: GitHub
+                  url: https://github.com/Skylakc
+                  params:
+                      icon: brand-github
+                - identifier: email
+                  name: Email
+                  url: mailto:skylakeshang@gmail.com
+                  params:
+                      icon: icon-email
+                - identifier: bilibili
+                  name: Bilibili
+                  url: https://space.bilibili.com/29758965
+                  params:
+                      icon: bilibili
     zh:
         label: 简体中文
         title: Skylake 的博客
@@ -48,7 +64,22 @@ languages:
                   params:
                       icon: store
                       newTab: true
-
+            social:
+                - identifier: github
+                  name: GitHub
+                  url: https://github.com/Skylakc
+                  params:
+                      icon: brand-github
+                - identifier: email
+                  name: Email
+                  url: mailto:skylakeshang@gmail.com
+                  params:
+                      icon: icon-email
+                - identifier: bilibili
+                  name: Bilibili
+                  url: https://space.bilibili.com/29758965
+                  params:
+                      icon: bilibili
 params:
     mainSections:
         - post
@@ -109,30 +140,6 @@ params:
                 - 1600
         thumbnail:
             enabled: true
-
-### Custom menu
-### See https://stack.cai.im/config/menu
-menu:
-    main: []
-
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/Skylakc
-          params:
-              icon: brand-github
-
-        - identifier: email
-          name: Email
-          url: mailto:skylakeshang@gmail.com
-          params:
-              icon: icon-email
-
-        - identifier: bilibili
-          name: Bilibili
-          url: https://space.bilibili.com/29758965
-          params:
-              icon: bilibili
 
 related:
     includeNewer: true
