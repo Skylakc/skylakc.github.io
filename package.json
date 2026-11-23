@@ -1,0 +1,14 @@
+{
+  "name": "skylake-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site of Eric Shang (Skylake) — Hugo + Stack",
+  "scripts": {
+    "dev": "hugo server --buildDrafts --navigateToChanged",
+    "build": "hugo --gc --minify",
+    "sass": "sass --version"
+  },
+  "devDependencies": {
+    "sass": "1.108.2"
+  }
+}

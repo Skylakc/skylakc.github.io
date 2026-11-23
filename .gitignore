@@ -1,30 +1,22 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
 
-# Folders
-_obj
-_test
+# Local tooling
+node_modules/
+npm-debug.log*
+.env
+.env.*
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+# Personal photo archive — not part of the site
+photos/
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
+# Themes are managed as a git submodule
+themes/
 
-_testmain.go
-
-*.exe
-*.test
-
-public
-themes
-resources
-
-assets/jsconfig.json
+# Local workspace / OS / editor
+skylake-blog.code-workspace
 .DS_Store
+Thumbs.db
+assets/jsconfig.json

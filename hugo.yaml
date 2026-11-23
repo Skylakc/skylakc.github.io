@@ -1,0 +1,153 @@
+baseURL: https://skylakc.github.io/
+locale: en-us
+title: Skylake's Blog
+theme: hugo-theme-stack
+
+defaultContentLanguage: en
+hasCJKLanguage: true
+
+pagination:
+    pagerSize: 5
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+languages:
+    en:
+        label: English
+        title: Skylake's Blog
+        weight: 1
+        params:
+            description: PhD student at PolyU EEE · Founder of PhotonJoy
+            sidebar:
+                subtitle: PhD Student @ PolyU EEE · Founder @ PhotonJoy
+    zh:
+        label: 简体中文
+        title: 天湖的博客
+        weight: 2
+        params:
+            description: 香港理工大学 EEE 博士生 · PhotonJoy 创始人
+            sidebar:
+                subtitle: 港理工 EEE 博士生 · PhotonJoy 创始人
+
+params:
+    mainSections:
+        - post
+    rssFullContent: true
+
+    footer:
+        since: 2023
+
+    dateFormat:
+        published: ":date_full"
+        lastUpdated: ":date_full"
+
+    sidebar:
+        emoji: 🍥
+        avatar: img/avatar.png
+
+    article:
+        math: false
+        toc: true
+        readingTime: true
+        license:
+            enabled: false
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: false
+
+    widgets:
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+
+    opengraph:
+        twitter:
+            card: summary_large_image
+
+    colorScheme:
+        toggle: true
+        default: dark
+
+    imageProcessing:
+        content:
+            enabled: true
+        thumbnail:
+            enabled: true
+
+### Custom menu
+### See https://stack.cai.im/config/menu
+menu:
+    main: []
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/Skylakc
+          params:
+              icon: brand-github
+
+        - identifier: email
+          name: Email
+          url: mailto:skylakeshang@gmail.com
+          params:
+              icon: icon-email
+
+        - identifier: bilibili
+          name: Bilibili
+          url: https://space.bilibili.com/29758965
+          params:
+              icon: bilibili
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        extensions:
+            passthrough:
+                enable: true
+                delimiters:
+                    block:
+                        - ['\[', '\]']
+                        - ['$$', '$$']
+                    inline:
+                        - ['\(', '\)']
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
+
+services:
+    googleAnalytics:
+        ID: G-0XSN915CD1
