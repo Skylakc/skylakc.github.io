@@ -1,34 +1,42 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
+title: "About Me"
+description: "I am always a student."
+date: 2023-12-01
+slug: about
 aliases:
+  - about-me
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: 2026-11-24
 menu:
-    main: 
+    main:
         weight: -90
         params:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I am a PhD student in the Department of Electrical and Electronic Engineering (EEE) at The Hong Kong Polytechnic University, and the founder of PhotonJoy Technology Co., Ltd.
 
-Hugo makes use of a variety of open source projects including:
+## Hardware Experience
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I have a lot of project experience from high school and university. The main topic of my work is embedded hardware development and circuit design, which also includes some mechanical design and algorithm research.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+I use PSpice/Multisim and Keysight ADS (Advanced Design System) for solution verification, Altium Designer or Cadence for PCB design, SolidWorks for modeling, and a homemade 3D printer for enclosures and structural parts.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+I am also very proficient with Cortex-M microcontrollers and Cortex-A embedded chips, including STM32/ESP32 and Rockchip RK3399. In addition, I have some research experience with FPGAs, such as Infineon's PSoC system and Xilinx's Zynq system.
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+## Software Experience
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+I have written more than 100,000 lines of code in C/C++, Verilog and Python.
+
+This includes a wide variety of projects, large and small. The main content focuses on embedded systems and FPGAs. There are times when I work on open-source projects or train new neural network models to solve problems around me that need to be automated.
+
+I learned a great deal from Prof. Xinjie Yu's course on circuit principles, and I also studied analog and digital circuits systematically. In terms of circuit analysis, I believe I have solid fundamentals.
+
+## CV
+
+[Download my CV (PDF)](/file/CV1_SHANG%20Zhenyu.pdf)
+
+Thank you again for visiting my website.
