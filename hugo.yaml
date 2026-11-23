@@ -45,7 +45,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        avatar: img/avatar.png
+        avatar: img/avatar.jpg
 
     article:
         math: false
