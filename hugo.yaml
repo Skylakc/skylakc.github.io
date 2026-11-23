@@ -22,6 +22,15 @@ languages:
             description: PhD student at PolyU EEE (RCEV) · Founder of PhotonJoy
             sidebar:
                 subtitle: PhD @ PolyU EEE (RCEV) · Founder @ PhotonJoy
+        menu:
+            main:
+                - identifier: shop
+                  name: Shop
+                  url: https://haloplasma.com/
+                  weight: -65
+                  params:
+                      icon: store
+                      newTab: true
     zh:
         label: 简体中文
         title: 天湖的博客
@@ -30,6 +39,15 @@ languages:
             description: 香港理工大学 EEE 博士生（RCEV）· PhotonJoy 创始人
             sidebar:
                 subtitle: 港理工 EEE 博士生（RCEV）· PhotonJoy 创始人
+        menu:
+            main:
+                - identifier: shop
+                  name: 商店
+                  url: https://haloplasma.com/
+                  weight: -65
+                  params:
+                      icon: store
+                      newTab: true
 
 params:
     mainSections:
@@ -45,7 +63,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        avatar: img/avatar.jpg
+        avatar: img/avatar.webp
 
     article:
         math: false
@@ -110,12 +128,6 @@ menu:
           url: https://space.bilibili.com/29758965
           params:
               icon: bilibili
-
-        - identifier: haloplasma
-          name: HaloPlasma
-          url: https://haloplasma.com/
-          params:
-              icon: store
 
 related:
     includeNewer: true

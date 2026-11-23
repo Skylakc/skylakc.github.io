@@ -3,13 +3,6 @@ title: "Links"
 slug: links
 description: "Some useful places on the internet."
 links:
-  - title: HaloPlasma
-    description: Plasma toroids and plasma devices from PhotonJoy.
-    website: https://haloplasma.com/
-    image: haloplasma.jpg
-  - title: RCEV
-    description: Research Centre for Electric Vehicles, The Hong Kong Polytechnic University.
-    website: https://www.polyu.edu.hk/rcev/
   - title: Google
     description: The best place to start a search.
     website: https://www.google.com/
